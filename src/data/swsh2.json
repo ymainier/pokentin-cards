@@ -1,0 +1,3522 @@
+{
+  "cards": [
+    {
+      "id": "swsh2-1",
+      "name": "Caterpie",
+      "nationalPokedexNumber": 10,
+      "imageUrl": "https://images.pokemontcg.io/swsh2/1.png",
+      "imageUrlHiRes": "https://images.pokemontcg.io/swsh2/1_hires.png",
+      "types": ["Grass"],
+      "supertype": "Pokémon",
+      "subtype": "Basic",
+      "ability": {
+        "name": "Adaptive Evolution",
+        "text": "This Pokémon can evolve during your first turn or the turn you play it.",
+        "type": "Ability"
+      },
+      "hp": "50",
+      "retreatCost": ["Colorless"],
+      "convertedRetreatCost": 1,
+      "number": "1",
+      "artist": "Uta",
+      "rarity": "Common",
+      "series": "Sword & Shield",
+      "set": "Rebel Clash",
+      "setCode": "swsh2",
+      "attacks": [
+        {
+          "cost": ["Colorless"],
+          "name": "Gnaw",
+          "text": "",
+          "damage": "10",
+          "convertedEnergyCost": 1
+        }
+      ],
+      "weaknesses": [{ "type": "Fire", "value": "×2" }]
+    },
+    {
+      "id": "swsh2-2",
+      "name": "Metapod",
+      "nationalPokedexNumber": 11,
+      "imageUrl": "https://images.pokemontcg.io/swsh2/2.png",
+      "imageUrlHiRes": "https://images.pokemontcg.io/swsh2/2_hires.png",
+      "types": ["Grass"],
+      "supertype": "Pokémon",
+      "subtype": "Stage 1",
+      "evolvesFrom": "Caterpie",
+      "ability": {
+        "name": "Adaptive Evolution",
+        "text": "This Pokémon can evolve during your first turn or the turn you play it.",
+        "type": "Ability"
+      },
+      "hp": "80",
+      "retreatCost": ["Colorless", "Colorless", "Colorless"],
+      "convertedRetreatCost": 3,
+      "number": "2",
+      "artist": "Asako Ito",
+      "rarity": "Uncommon",
+      "series": "Sword & Shield",
+      "set": "Rebel Clash",
+      "setCode": "swsh2",
+      "attacks": [
+        {
+          "cost": ["Colorless", "Colorless"],
+          "name": "Ram",
+          "text": "",
+          "damage": "20",
+          "convertedEnergyCost": 2
+        }
+      ],
+      "weaknesses": [{ "type": "Fire", "value": "×2" }]
+    },
+    {
+      "id": "swsh2-3",
+      "name": "Butterfree",
+      "nationalPokedexNumber": 12,
+      "imageUrl": "https://images.pokemontcg.io/swsh2/3.png",
+      "imageUrlHiRes": "https://images.pokemontcg.io/swsh2/3_hires.png",
+      "types": ["Grass"],
+      "supertype": "Pokémon",
+      "subtype": "Stage 2",
+      "evolvesFrom": "Metapod",
+      "hp": "140",
+      "retreatCost": ["Colorless"],
+      "convertedRetreatCost": 1,
+      "number": "3",
+      "artist": "Taira Akitsu",
+      "rarity": "Rare",
+      "series": "Sword & Shield",
+      "set": "Rebel Clash",
+      "setCode": "swsh2",
+      "attacks": [
+        {
+          "cost": ["Grass"],
+          "name": "Panic Poison",
+          "text": "Your opponent's Active Pokémon is now Burned, Confused, and Poisoned.",
+          "damage": "30",
+          "convertedEnergyCost": 1
+        },
+        {
+          "cost": ["Colorless", "Colorless"],
+          "name": "Cutting Wind",
+          "text": "",
+          "damage": "80",
+          "convertedEnergyCost": 2
+        }
+      ],
+      "weaknesses": [{ "type": "Fire", "value": "×2" }]
+    },
+    {
+      "id": "swsh2-4",
+      "name": "Scyther",
+      "nationalPokedexNumber": 123,
+      "imageUrl": "https://images.pokemontcg.io/swsh2/4.png",
+      "imageUrlHiRes": "https://images.pokemontcg.io/swsh2/4_hires.png",
+      "types": ["Grass"],
+      "supertype": "Pokémon",
+      "subtype": "Basic",
+      "hp": "80",
+      "retreatCost": ["Colorless"],
+      "convertedRetreatCost": 1,
+      "number": "4",
+      "artist": "KEIICHIRO ITO",
+      "rarity": "Common",
+      "series": "Sword & Shield",
+      "set": "Rebel Clash",
+      "setCode": "swsh2",
+      "attacks": [
+        {
+          "cost": ["Colorless"],
+          "name": "Swords Dance",
+          "text": "During your next turn, this Pokémon's Blinding Scythe attack does 70 more damage (before applying Weakness and Resistance).",
+          "damage": "",
+          "convertedEnergyCost": 1
+        },
+        {
+          "cost": ["Colorless"],
+          "name": "Blinding Scythe",
+          "text": "",
+          "damage": "20",
+          "convertedEnergyCost": 1
+        }
+      ],
+      "weaknesses": [{ "type": "Fire", "value": "×2" }]
+    },
+    {
+      "id": "swsh2-5",
+      "name": "Shuckle",
+      "nationalPokedexNumber": 213,
+      "imageUrl": "https://images.pokemontcg.io/swsh2/5.png",
+      "imageUrlHiRes": "https://images.pokemontcg.io/swsh2/5_hires.png",
+      "types": ["Grass"],
+      "supertype": "Pokémon",
+      "subtype": "Basic",
+      "hp": "80",
+      "retreatCost": ["Colorless"],
+      "convertedRetreatCost": 1,
+      "number": "5",
+      "artist": "HYOGONOSUKE",
+      "rarity": "Uncommon",
+      "series": "Sword & Shield",
+      "set": "Rebel Clash",
+      "setCode": "swsh2",
+      "attacks": [
+        {
+          "cost": ["Colorless"],
+          "name": "Berry Picking",
+          "text": "Shuffle up to 5 basic Energy cards from your discard pile into your deck.",
+          "damage": "",
+          "convertedEnergyCost": 1
+        },
+        {
+          "cost": ["Grass", "Colorless", "Colorless"],
+          "name": "Bind",
+          "text": "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.",
+          "damage": "50",
+          "convertedEnergyCost": 3
+        }
+      ],
+      "weaknesses": [{ "type": "Fire", "value": "×2" }]
+    },
+    {
+      "id": "swsh2-6",
+      "name": "Heracross",
+      "nationalPokedexNumber": 214,
+      "imageUrl": "https://images.pokemontcg.io/swsh2/6.png",
+      "imageUrlHiRes": "https://images.pokemontcg.io/swsh2/6_hires.png",
+      "types": ["Grass"],
+      "supertype": "Pokémon",
+      "subtype": "Basic",
+      "hp": "130",
+      "retreatCost": ["Colorless", "Colorless"],
+      "convertedRetreatCost": 2,
+      "number": "6",
+      "artist": "otumami",
+      "rarity": "Uncommon",
+      "series": "Sword & Shield",
+      "set": "Rebel Clash",
+      "setCode": "swsh2",
+      "attacks": [
+        {
+          "cost": ["Colorless", "Colorless"],
+          "name": "Push Down",
+          "text": "Your opponent switches their Active Pokémon with 1 of their Benched Pokémon.",
+          "damage": "30",
+          "convertedEnergyCost": 2
+        },
+        {
+          "cost": ["Grass", "Grass", "Colorless"],
+          "name": "Superpowered Horns",
+          "text": "",
+          "damage": "110",
+          "convertedEnergyCost": 3
+        }
+      ],
+      "weaknesses": [{ "type": "Fire", "value": "×2" }]
+    },
+    {
+      "id": "swsh2-7",
+      "name": "Lotad",
+      "nationalPokedexNumber": 270,
+      "imageUrl": "https://images.pokemontcg.io/swsh2/7.png",
+      "imageUrlHiRes": "https://images.pokemontcg.io/swsh2/7_hires.png",
+      "types": ["Grass"],
+      "supertype": "Pokémon",
+      "subtype": "Basic",
+      "hp": "60",
+      "retreatCost": ["Colorless"],
+      "convertedRetreatCost": 1,
+      "number": "7",
+      "artist": "Sumiyoshi Kizuki",
+      "rarity": "Common",
+      "series": "Sword & Shield",
+      "set": "Rebel Clash",
+      "setCode": "swsh2",
+      "attacks": [
+        {
+          "cost": ["Colorless"],
+          "name": "Mini Drain",
+          "text": "Heal 10 damage from this Pokémon.",
+          "damage": "10",
+          "convertedEnergyCost": 1
+        },
+        {
+          "cost": ["Grass", "Colorless"],
+          "name": "Ram",
+          "text": "",
+          "damage": "20",
+          "convertedEnergyCost": 2
+        }
+      ],
+      "weaknesses": [{ "type": "Fire", "value": "×2" }]
+    },
+    {
+      "id": "swsh2-8",
+      "name": "Lombre",
+      "nationalPokedexNumber": 271,
+      "imageUrl": "https://images.pokemontcg.io/swsh2/8.png",
+      "imageUrlHiRes": "https://images.pokemontcg.io/swsh2/8_hires.png",
+      "types": ["Grass"],
+      "supertype": "Pokémon",
+      "subtype": "Stage 1",
+      "evolvesFrom": "Lotad",
+      "ability": {
+        "name": "Top Entry",
+        "text": "Once during your turn, if you drew this Pokémon from your deck at the beginning of your turn and your Bench isn't full, before you put it into your hand, you may put it onto your Bench.",
+        "type": "Ability"
+      },
+      "hp": "90",
+      "retreatCost": ["Colorless"],
+      "convertedRetreatCost": 1,
+      "number": "8",
+      "artist": "Miki Tanaka",
+      "rarity": "Uncommon",
+      "series": "Sword & Shield",
+      "set": "Rebel Clash",
+      "setCode": "swsh2",
+      "attacks": [
+        {
+          "cost": ["Grass", "Colorless", "Colorless"],
+          "name": "Fury Swipes",
+          "text": "Flip 3 coins. This attack does 40 damage for each heads.",
+          "damage": "40×",
+          "convertedEnergyCost": 3
+        }
+      ],
+      "weaknesses": [{ "type": "Fire", "value": "×2" }]
+    },
+    {
+      "id": "swsh2-9",
+      "name": "Ludicolo",
+      "nationalPokedexNumber": 272,
+      "imageUrl": "https://images.pokemontcg.io/swsh2/9.png",
+      "imageUrlHiRes": "https://images.pokemontcg.io/swsh2/9_hires.png",
+      "types": ["Grass"],
+      "supertype": "Pokémon",
+      "subtype": "Stage 2",
+      "evolvesFrom": "Lombre",
+      "hp": "160",
+      "retreatCost": ["Colorless", "Colorless"],
+      "convertedRetreatCost": 2,
+      "number": "9",
+      "artist": "Masakazu Fukuda",
+      "rarity": "Rare",
+      "series": "Sword & Shield",
+      "set": "Rebel Clash",
+      "setCode": "swsh2",
+      "attacks": [
+        {
+          "cost": ["Colorless", "Colorless"],
+          "name": "Spirited Rushdown",
+          "text": "This attack does 60 damage for each Prize card you have taken.",
+          "damage": "60×",
+          "convertedEnergyCost": 2
+        },
+        {
+          "cost": ["Grass", "Colorless", "Colorless"],
+          "name": "Mega Drain",
+          "text": "Heal 30 damage from this Pokémon.",
+          "damage": "120",
+          "convertedEnergyCost": 3
+        }
+      ],
+      "weaknesses": [{ "type": "Fire", "value": "×2" }]
+    },
+    {
+      "id": "swsh2-10",
+      "name": "Surskit",
+      "nationalPokedexNumber": 283,
+      "imageUrl": "https://images.pokemontcg.io/swsh2/10.png",
+      "imageUrlHiRes": "https://images.pokemontcg.io/swsh2/10_hires.png",
+      "types": ["Grass"],
+      "supertype": "Pokémon",
+      "subtype": "Basic",
+      "hp": "50",
+      "retreatCost": ["Colorless"],
+      "convertedRetreatCost": 1,
+      "number": "10",
+      "artist": "Masakazu Fukuda",
+      "rarity": "Common",
+      "series": "Sword & Shield",
+      "set": "Rebel Clash",
+      "setCode": "swsh2",
+      "attacks": [
+        {
+          "cost": ["Colorless"],
+          "name": "Agility",
+          "text": "Flip a coin. If heads, during your opponent's next turn, prevent all effects of attacks, including damage, done to this Pokémon.",
+          "damage": "10",
+          "convertedEnergyCost": 1
+        }
+      ],
+      "weaknesses": [{ "type": "Fire", "value": "×2" }]
+    },
+    {
+      "id": "swsh2-11",
+      "name": "Masquerain",
+      "nationalPokedexNumber": 284,
+      "imageUrl": "https://images.pokemontcg.io/swsh2/11.png",
+      "imageUrlHiRes": "https://images.pokemontcg.io/swsh2/11_hires.png",
+      "types": ["Grass"],
+      "supertype": "Pokémon",
+      "subtype": "Stage 1",
+      "evolvesFrom": "Surskit",
+      "hp": "90",
+      "retreatCost": ["Colorless"],
+      "convertedRetreatCost": 1,
+      "number": "11",
+      "artist": "chibi",
+      "rarity": "Uncommon",
+      "series": "Sword & Shield",
+      "set": "Rebel Clash",
+      "setCode": "swsh2",
+      "attacks": [
+        {
+          "cost": ["Colorless"],
+          "name": "Threatening Pattern",
+          "text": "During your opponent's next turn, Energy can't be attached from your opponent's hand to the Defending Pokémon.",
+          "damage": "30",
+          "convertedEnergyCost": 1
+        },
+        {
+          "cost": ["Colorless", "Colorless"],
+          "name": "U-turn",
+          "text": "Switch this Pokémon with 1 of your Benched Pokémon.",
+          "damage": "40",
+          "convertedEnergyCost": 2
+        }
+      ],
+      "weaknesses": [{ "type": "Fire", "value": "×2" }]
+    },
+    {
+      "id": "swsh2-12",
+      "name": "Snover",
+      "nationalPokedexNumber": 459,
+      "imageUrl": "https://images.pokemontcg.io/swsh2/12.png",
+      "imageUrlHiRes": "https://images.pokemontcg.io/swsh2/12_hires.png",
+      "types": ["Grass"],
+      "supertype": "Pokémon",
+      "subtype": "Basic",
+      "hp": "90",
+      "retreatCost": ["Colorless", "Colorless", "Colorless"],
+      "convertedRetreatCost": 3,
+      "number": "12",
+      "artist": "Shibuzoh.",
+      "rarity": "Common",
+      "series": "Sword & Shield",
+      "set": "Rebel Clash",
+      "setCode": "swsh2",
+      "attacks": [
+        {
+          "cost": ["Colorless", "Colorless"],
+          "name": "Beat",
+          "text": "",
+          "damage": "20",
+          "convertedEnergyCost": 2
+        },
+        {
+          "cost": ["Grass", "Colorless", "Colorless"],
+          "name": "Razor Leaf",
+          "text": "",
+          "damage": "50",
+          "convertedEnergyCost": 3
+        }
+      ],
+      "weaknesses": [{ "type": "Fire", "value": "×2" }]
+    },
+    {
+      "id": "swsh2-13",
+      "name": "Abomasnow",
+      "nationalPokedexNumber": 460,
+      "imageUrl": "https://images.pokemontcg.io/swsh2/13.png",
+      "imageUrlHiRes": "https://images.pokemontcg.io/swsh2/13_hires.png",
+      "types": ["Grass"],
+      "supertype": "Pokémon",
+      "subtype": "Stage 1",
+      "evolvesFrom": "Snover",
+      "hp": "140",
+      "retreatCost": ["Colorless", "Colorless", "Colorless"],
+      "convertedRetreatCost": 3,
+      "number": "13",
+      "artist": "Kazuma Koda",
+      "rarity": "Rare",
+      "series": "Sword & Shield",
+      "set": "Rebel Clash",
+      "setCode": "swsh2",
+      "attacks": [
+        {
+          "cost": ["Grass", "Colorless", "Colorless"],
+          "name": "Soothing Scent",
+          "text": "Your opponent's Active Pokémon is now Asleep.",
+          "damage": "80",
+          "convertedEnergyCost": 3
+        },
+        {
+          "cost": ["Grass", "Grass", "Colorless", "Colorless"],
+          "name": "Megaton Lariat",
+          "text": "",
+          "damage": "140",
+          "convertedEnergyCost": 4
+        }
+      ],
+      "weaknesses": [{ "type": "Fire", "value": "×2" }]
+    },
+    {
+      "id": "swsh2-14",
+      "name": "Phantump",
+      "nationalPokedexNumber": 708,
+      "imageUrl": "https://images.pokemontcg.io/swsh2/14.png",
+      "imageUrlHiRes": "https://images.pokemontcg.io/swsh2/14_hires.png",
+      "types": ["Grass"],
+      "supertype": "Pokémon",
+      "subtype": "Basic",
+      "hp": "60",
+      "retreatCost": ["Colorless"],
+      "convertedRetreatCost": 1,
+      "number": "14",
+      "artist": "sui",
+      "rarity": "Common",
+      "series": "Sword & Shield",
+      "set": "Rebel Clash",
+      "setCode": "swsh2",
+      "attacks": [
+        {
+          "cost": ["Colorless"],
+          "name": "Dark Guidance",
+          "text": "Put a Basic Pokémon from your discard pile onto your Bench.",
+          "damage": "",
+          "convertedEnergyCost": 1
+        },
+        {
+          "cost": ["Grass", "Colorless"],
+          "name": "Seed Bomb",
+          "text": "",
+          "damage": "30",
+          "convertedEnergyCost": 2
+        }
+      ],
+      "weaknesses": [{ "type": "Fire", "value": "×2" }]
+    },
+    {
+      "id": "swsh2-15",
+      "name": "Trevenant",
+      "nationalPokedexNumber": 709,
+      "imageUrl": "https://images.pokemontcg.io/swsh2/15.png",
+      "imageUrlHiRes": "https://images.pokemontcg.io/swsh2/15_hires.png",
+      "types": ["Grass"],
+      "supertype": "Pokémon",
+      "subtype": "Stage 1",
+      "evolvesFrom": "Phantump",
+      "hp": "130",
+      "retreatCost": ["Colorless", "Colorless", "Colorless"],
+      "convertedRetreatCost": 3,
+      "number": "15",
+      "artist": "kawayoo",
+      "rarity": "Rare",
+      "series": "Sword & Shield",
+      "set": "Rebel Clash",
+      "setCode": "swsh2",
+      "attacks": [
+        {
+          "cost": ["Grass"],
+          "name": "Seed Bomb",
+          "text": "",
+          "damage": "40",
+          "convertedEnergyCost": 1
+        },
+        {
+          "cost": ["Grass", "Grass", "Colorless"],
+          "name": "Shadow Cage",
+          "text": "During your opponent's next turn, the Defending Pokémon can't retreat.",
+          "damage": "120",
+          "convertedEnergyCost": 3
+        }
+      ],
+      "weaknesses": [{ "type": "Fire", "value": "×2" }]
+    },
+    {
+      "id": "swsh2-16",
+      "name": "Grubbin",
+      "nationalPokedexNumber": 736,
+      "imageUrl": "https://images.pokemontcg.io/swsh2/16.png",
+      "imageUrlHiRes": "https://images.pokemontcg.io/swsh2/16_hires.png",
+      "types": ["Grass"],
+      "supertype": "Pokémon",
+      "subtype": "Basic",
+      "hp": "60",
+      "retreatCost": ["Colorless"],
+      "convertedRetreatCost": 1,
+      "number": "16",
+      "artist": "Tomokazu Komiya",
+      "rarity": "Common",
+      "series": "Sword & Shield",
+      "set": "Rebel Clash",
+      "setCode": "swsh2",
+      "attacks": [
+        {
+          "cost": ["Colorless"],
+          "name": "Gnaw",
+          "text": "",
+          "damage": "10",
+          "convertedEnergyCost": 1
+        }
+      ],
+      "weaknesses": [{ "type": "Fire", "value": "×2" }]
+    },
+    {
+      "id": "swsh2-17",
+      "name": "Rillaboom V",
+      "nationalPokedexNumber": 812,
+      "imageUrl": "https://images.pokemontcg.io/swsh2/17.png",
+      "imageUrlHiRes": "https://images.pokemontcg.io/swsh2/17_hires.png",
+      "types": ["Grass"],
+      "supertype": "Pokémon",
+      "subtype": "V",
+      "hp": "220",
+      "retreatCost": ["Colorless", "Colorless", "Colorless"],
+      "convertedRetreatCost": 3,
+      "number": "17",
+      "artist": "5ban Graphics",
+      "rarity": "Rare Holo",
+      "series": "Sword & Shield",
+      "set": "Rebel Clash",
+      "setCode": "swsh2",
+      "text": [
+        "When your Pokémon V is Knocked Out, your opponent takes 2 Prize cards."
+      ],
+      "attacks": [
+        {
+          "cost": ["Grass"],
+          "name": "Forest Feast",
+          "text": "Search your deck for up to 2 Basic Grass Pokémon and put them onto your Bench. Then, shuffle your deck.",
+          "damage": "",
+          "convertedEnergyCost": 1
+        },
+        {
+          "cost": ["Grass", "Grass", "Grass", "Colorless"],
+          "name": "Wood Hammer",
+          "text": "This Pokémon also does 30 damage to itself.",
+          "damage": "220",
+          "convertedEnergyCost": 4
+        }
+      ],
+      "weaknesses": [{ "type": "Fire", "value": "×2" }]
+    },
+    {
+      "id": "swsh2-18",
+      "name": "Rillaboom VMAX",
+      "nationalPokedexNumber": 812,
+      "imageUrl": "https://images.pokemontcg.io/swsh2/18.png",
+      "imageUrlHiRes": "https://images.pokemontcg.io/swsh2/18_hires.png",
+      "types": ["Grass"],
+      "supertype": "Pokémon",
+      "subtype": "VMAX",
+      "evolvesFrom": "Rillaboom V",
+      "hp": "330",
+      "retreatCost": ["Colorless", "Colorless", "Colorless"],
+      "convertedRetreatCost": 3,
+      "number": "18",
+      "artist": "5ban Graphics",
+      "rarity": "Rare Holo",
+      "series": "Sword & Shield",
+      "set": "Rebel Clash",
+      "setCode": "swsh2",
+      "text": [
+        "When your Pokémon VMAX is Knocked Out, your opponent takes 3 Prize cards."
+      ],
+      "attacks": [
+        {
+          "cost": ["Colorless"],
+          "name": "Scratch",
+          "text": "",
+          "damage": "50",
+          "convertedEnergyCost": 1
+        },
+        {
+          "cost": ["Grass", "Grass", "Grass", "Colorless"],
+          "name": "Max Beating",
+          "text": "You may discard up to 3 Grass Energy from this Pokémon. If you do, this attack does 50 more damage for each card you discarded in this way.",
+          "damage": "130+",
+          "convertedEnergyCost": 4
+        }
+      ],
+      "weaknesses": [{ "type": "Fire", "value": "×2" }]
+    },
+    {
+      "id": "swsh2-19",
+      "name": "Eldegoss V",
+      "nationalPokedexNumber": 830,
+      "imageUrl": "https://images.pokemontcg.io/swsh2/19.png",
+      "imageUrlHiRes": "https://images.pokemontcg.io/swsh2/19_hires.png",
+      "types": ["Grass"],
+      "supertype": "Pokémon",
+      "subtype": "Rare Holo",
+      "ability": {
+        "name": "Happy Match",
+        "text": "When you play this Pokémon from your hand onto your Bench during your turn, you may put a Supporter card from your discard pile into your hand.",
+        "type": "Ability"
+      },
+      "hp": "180",
+      "retreatCost": ["Colorless"],
+      "convertedRetreatCost": 1,
+      "number": "19",
+      "artist": "5ban Graphics",
+      "rarity": "Rare Holo",
+      "series": "Sword & Shield",
+      "set": "Rebel Clash",
+      "setCode": "swsh2",
+      "text": [
+        "When your Pokémon V is Knocked Out, your opponent takes 2 Prize cards."
+      ],
+      "attacks": [
+        {
+          "cost": ["Colorless", "Colorless"],
+          "name": "Float Up",
+          "text": "You may shuffle this Pokémon and all attached cards into your deck.",
+          "damage": "50",
+          "convertedEnergyCost": 2
+        }
+      ],
+      "weaknesses": [{ "type": "Fire", "value": "×2" }]
+    },
+    {
+      "id": "swsh2-20",
+      "name": "Applin",
+      "nationalPokedexNumber": 840,
+      "imageUrl": "https://images.pokemontcg.io/swsh2/20.png",
+      "imageUrlHiRes": "https://images.pokemontcg.io/swsh2/20_hires.png",
+      "types": ["Grass"],
+      "supertype": "Pokémon",
+      "subtype": "Basic",
+      "hp": "40",
+      "retreatCost": ["Colorless"],
+      "convertedRetreatCost": 1,
+      "number": "20",
+      "artist": "Mizue",
+      "rarity": "Common",
+      "series": "Sword & Shield",
+      "set": "Rebel Clash",
+      "setCode": "swsh2",
+      "attacks": [
+        {
+          "cost": ["Grass", "Colorless"],
+          "name": "Continuous Tumble",
+          "text": "Flip a coin until you get tails. This attack does 30 more damage for each heads.",
+          "damage": "10+",
+          "convertedEnergyCost": 2
+        }
+      ],
+      "weaknesses": [{ "type": "Fire", "value": "×2" }]
+    },
+    {
+      "id": "swsh2-21",
+      "name": "Applin",
+      "nationalPokedexNumber": 840,
+      "imageUrl": "https://images.pokemontcg.io/swsh2/21.png",
+      "imageUrlHiRes": "https://images.pokemontcg.io/swsh2/21_hires.png",
+      "types": ["Grass"],
+      "supertype": "Pokémon",
+      "subtype": "Basic",
+      "hp": "40",
+      "retreatCost": ["Colorless"],
+      "convertedRetreatCost": 1,
+      "number": "21",
+      "artist": "Kagemaru Himeno",
+      "rarity": "Common",
+      "series": "Sword & Shield",
+      "set": "Rebel Clash",
+      "setCode": "swsh2",
+      "attacks": [
+        {
+          "cost": ["Colorless"],
+          "name": "Withdraw",
+          "text": "Flip a coin. If heads, during your opponent's next turn, prevent all damage done to this Pokémon by attacks.",
+          "damage": "",
+          "convertedEnergyCost": 1
+        }
+      ],
+      "weaknesses": [{ "type": "Fire", "value": "×2" }]
+    },
+    {
+      "id": "swsh2-22",
+      "name": "Flapple",
+      "nationalPokedexNumber": 841,
+      "imageUrl": "https://images.pokemontcg.io/swsh2/22.png",
+      "imageUrlHiRes": "https://images.pokemontcg.io/swsh2/22_hires.png",
+      "types": ["Grass"],
+      "supertype": "Pokémon",
+      "subtype": "Stage 1",
+      "evolvesFrom": "Applin",
+      "ability": {
+        "name": "Apple Drop",
+        "text": "Once during your turn, you may put 2 damage counters on 1 of your opponent's Pokémon. If you placed any damage counters in this way, shuffle this Pokémon and all attached cards into your deck.",
+        "type": "Ability"
+      },
+      "hp": "80",
+      "retreatCost": ["Colorless"],
+      "convertedRetreatCost": 1,
+      "number": "22",
+      "artist": "Shin Nagasawa",
+      "rarity": "Rare Holo",
+      "series": "Sword & Shield",
+      "set": "Rebel Clash",
+      "setCode": "swsh2",
+      "attacks": [
+        {
+          "cost": ["Colorless", "Colorless"],
+          "name": "Acid Spray",
+          "text": "Flip a coin. If heads, discard an Energy from your opponent's Active Pokémon.",
+          "damage": "60",
+          "convertedEnergyCost": 2
+        }
+      ],
+      "weaknesses": [{ "type": "Fire", "value": "×2" }]
+    },
+    {
+      "id": "swsh2-23",
+      "name": "Appletun",
+      "nationalPokedexNumber": 842,
+      "imageUrl": "https://images.pokemontcg.io/swsh2/23.png",
+      "imageUrlHiRes": "https://images.pokemontcg.io/swsh2/23_hires.png",
+      "types": ["Grass"],
+      "supertype": "Pokémon",
+      "subtype": "Stage 1",
+      "evolvesFrom": "Applin",
+      "ability": {
+        "name": "Delicious Aroma",
+        "text": "Once during your turn, you may flip a coin. If heads, switch 1 of your opponent's Benched Basic Pokémon with their Active Pokémon.",
+        "type": "Ability"
+      },
+      "hp": "90",
+      "retreatCost": ["Colorless", "Colorless", "Colorless"],
+      "convertedRetreatCost": 3,
+      "number": "23",
+      "artist": "Akira Komayama",
+      "rarity": "Rare Holo",
+      "series": "Sword & Shield",
+      "set": "Rebel Clash",
+      "setCode": "swsh2",
+      "attacks": [
+        {
+          "cost": ["Grass", "Colorless"],
+          "name": "Solar Beam",
+          "text": "",
+          "damage": "70",
+          "convertedEnergyCost": 2
+        }
+      ],
+      "weaknesses": [{ "type": "Fire", "value": "×2" }]
+    },
+    {
+      "id": "swsh2-24",
+      "name": "Vulpix",
+      "nationalPokedexNumber": 37,
+      "imageUrl": "https://images.pokemontcg.io/swsh2/24.png",
+      "imageUrlHiRes": "https://images.pokemontcg.io/swsh2/24_hires.png",
+      "types": ["Fire"],
+      "supertype": "Pokémon",
+      "subtype": "Basic",
+      "hp": "60",
+      "retreatCost": ["Colorless"],
+      "convertedRetreatCost": 1,
+      "number": "24",
+      "artist": "sui",
+      "rarity": "Common",
+      "series": "Sword & Shield",
+      "set": "Rebel Clash",
+      "setCode": "swsh2",
+      "attacks": [
+        {
+          "cost": ["Fire"],
+          "name": "Confuse Ray",
+          "text": "Your opponent's Active Pokémon is now Confused.",
+          "damage": "",
+          "convertedEnergyCost": 1
+        },
+        {
+          "cost": ["Colorless", "Colorless"],
+          "name": "Smash Kick",
+          "text": "",
+          "damage": "20",
+          "convertedEnergyCost": 2
+        }
+      ],
+      "weaknesses": [{ "type": "Water", "value": "×2" }]
+    },
+    {
+      "id": "swsh2-25",
+      "name": "Ninetales",
+      "nationalPokedexNumber": 38,
+      "imageUrl": "https://images.pokemontcg.io/swsh2/25.png",
+      "imageUrlHiRes": "https://images.pokemontcg.io/swsh2/25_hires.png",
+      "types": ["Fire"],
+      "supertype": "Pokémon",
+      "subtype": "Stage 1",
+      "evolvesFrom": "Vulpix",
+      "hp": "120",
+      "retreatCost": ["Colorless"],
+      "convertedRetreatCost": 1,
+      "number": "25",
+      "artist": "AKIRA EGAWA",
+      "rarity": "Rare",
+      "series": "Sword & Shield",
+      "set": "Rebel Clash",
+      "setCode": "swsh2",
+      "attacks": [
+        {
+          "cost": ["Fire"],
+          "name": "Hex",
+          "text": "If your opponent's Active Pokémon is affected by a Special Condition, this attack does 90 more damage.",
+          "damage": "30+",
+          "convertedEnergyCost": 1
+        },
+        {
+          "cost": ["Fire", "Colorless", "Colorless"],
+          "name": "Flickering Flames",
+          "text": "Your opponent's Active Pokémon is now Asleep.",
+          "damage": "90",
+          "convertedEnergyCost": 3
+        }
+      ],
+      "weaknesses": [{ "type": "Water", "value": "×2" }]
+    },
+    {
+      "id": "swsh2-26",
+      "name": "Ninetales V",
+      "nationalPokedexNumber": 38,
+      "imageUrl": "https://images.pokemontcg.io/swsh2/26.png",
+      "imageUrlHiRes": "https://images.pokemontcg.io/swsh2/26_hires.png",
+      "types": ["Fire"],
+      "supertype": "Pokémon",
+      "subtype": "V",
+      "hp": "200",
+      "retreatCost": ["Colorless", "Colorless"],
+      "convertedRetreatCost": 2,
+      "number": "26",
+      "artist": "Saki Hayashiro",
+      "rarity": "Rare Holo",
+      "series": "Sword & Shield",
+      "set": "Rebel Clash",
+      "setCode": "swsh2",
+      "text": [
+        "When your Pokémon V is Knocked Out, your opponent takes 2 Prize cards."
+      ],
+      "attacks": [
+        {
+          "cost": ["Fire", "Colorless", "Colorless"],
+          "name": "Nine-Tailed Shapeshifter",
+          "text": "Choose 1 of your opponent's Active Pokémon's attacks and use it as this attack.",
+          "damage": "",
+          "convertedEnergyCost": 3
+        },
+        {
+          "cost": ["Fire", "Colorless", "Colorless", "Colorless"],
+          "name": "Flamethrower",
+          "text": "Discard an Energy from this Pokémon.",
+          "damage": "180",
+          "convertedEnergyCost": 4
+        }
+      ],
+      "weaknesses": [{ "type": "Water", "value": "×2" }]
+    },
+    {
+      "id": "swsh2-27",
+      "name": "Growlithe",
+      "nationalPokedexNumber": 58,
+      "imageUrl": "https://images.pokemontcg.io/swsh2/27.png",
+      "imageUrlHiRes": "https://images.pokemontcg.io/swsh2/27_hires.png",
+      "types": ["Fire"],
+      "supertype": "Pokémon",
+      "subtype": "Basic",
+      "hp": "80",
+      "retreatCost": ["Colorless", "Colorless"],
+      "convertedRetreatCost": 2,
+      "number": "27",
+      "artist": "Ryota Murayama",
+      "rarity": "Common",
+      "series": "Sword & Shield",
+      "set": "Rebel Clash",
+      "setCode": "swsh2",
+      "attacks": [
+        {
+          "cost": ["Colorless"],
+          "name": "Odor Sleuth",
+          "text": "Flip a coin. If heads, put a card from your discard pile into your hand.",
+          "damage": "",
+          "convertedEnergyCost": 1
+        },
+        {
+          "cost": ["Fire", "Fire", "Colorless"],
+          "name": "Fire Claws",
+          "text": "",
+          "damage": "60",
+          "convertedEnergyCost": 3
+        }
+      ],
+      "weaknesses": [{ "type": "Water", "value": "×2" }]
+    },
+    {
+      "id": "swsh2-28",
+      "name": "Arcanine",
+      "nationalPokedexNumber": 59,
+      "imageUrl": "https://images.pokemontcg.io/swsh2/28.png",
+      "imageUrlHiRes": "https://images.pokemontcg.io/swsh2/28_hires.png",
+      "types": ["Fire"],
+      "supertype": "Pokémon",
+      "subtype": "Stage 1",
+      "evolvesFrom": "Growlithe",
+      "ability": {
+        "name": "Warming Up",
+        "text": "If this Pokémon has a Burning Scarf attached, it gets +100 HP.",
+        "type": "Ability"
+      },
+      "hp": "130",
+      "retreatCost": ["Colorless", "Colorless"],
+      "convertedRetreatCost": 2,
+      "number": "28",
+      "artist": "Hasuno",
+      "rarity": "Rare",
+      "series": "Sword & Shield",
+      "set": "Rebel Clash",
+      "setCode": "swsh2",
+      "attacks": [
+        {
+          "cost": ["Fire", "Fire", "Colorless"],
+          "name": "Fire Mane",
+          "text": "",
+          "damage": "130",
+          "convertedEnergyCost": 3
+        }
+      ],
+      "weaknesses": [{ "type": "Water", "value": "×2" }]
+    },
+    {
+      "id": "swsh2-29",
+      "name": "Magmar",
+      "nationalPokedexNumber": 126,
+      "imageUrl": "https://images.pokemontcg.io/swsh2/29.png",
+      "imageUrlHiRes": "https://images.pokemontcg.io/swsh2/29_hires.png",
+      "types": ["Fire"],
+      "supertype": "Pokémon",
+      "subtype": "Basic",
+      "hp": "90",
+      "retreatCost": ["Colorless", "Colorless"],
+      "convertedRetreatCost": 2,
+      "number": "29",
+      "artist": "Shigenori Negishi",
+      "rarity": "Common",
+      "series": "Sword & Shield",
+      "set": "Rebel Clash",
+      "setCode": "swsh2",
+      "attacks": [
+        {
+          "cost": ["Colorless"],
+          "name": "Punch",
+          "text": "",
+          "damage": "10",
+          "convertedEnergyCost": 1
+        },
+        {
+          "cost": ["Fire", "Colorless"],
+          "name": "Heat Breath",
+          "text": "Flip a coin. If heads, this attack does 30 more damage.",
+          "damage": "20+",
+          "convertedEnergyCost": 2
+        }
+      ],
+      "weaknesses": [{ "type": "Water", "value": "×2" }]
+    },
+    {
+      "id": "swsh2-30",
+      "name": "Magmortar",
+      "nationalPokedexNumber": 467,
+      "imageUrl": "https://images.pokemontcg.io/swsh2/30.png",
+      "imageUrlHiRes": "https://images.pokemontcg.io/swsh2/30_hires.png",
+      "types": ["Fire"],
+      "supertype": "Pokémon",
+      "subtype": "Stage 1",
+      "evolvesFrom": "Magmar",
+      "hp": "140",
+      "retreatCost": ["Colorless", "Colorless", "Colorless"],
+      "convertedRetreatCost": 3,
+      "number": "30",
+      "artist": "Kazuma Koda",
+      "rarity": "Rare",
+      "series": "Sword & Shield",
+      "set": "Rebel Clash",
+      "setCode": "swsh2",
+      "attacks": [
+        {
+          "cost": ["Fire", "Colorless"],
+          "name": "Burst Punch",
+          "text": "Your opponent's Active Pokémon is now Burned.",
+          "damage": "30",
+          "convertedEnergyCost": 2
+        },
+        {
+          "cost": ["Fire", "Fire", "Colorless"],
+          "name": "Ground Burn",
+          "text": "Each player discards the top card of their deck. This attack does 100 more damage for each Energy card discarded in this way.",
+          "damage": "80+",
+          "convertedEnergyCost": 3
+        }
+      ],
+      "weaknesses": [{ "type": "Water", "value": "×2" }]
+    },
+    {
+      "id": "swsh2-31",
+      "name": "Litwick",
+      "nationalPokedexNumber": 607,
+      "imageUrl": "https://images.pokemontcg.io/swsh2/31.png",
+      "imageUrlHiRes": "https://images.pokemontcg.io/swsh2/31_hires.png",
+      "types": ["Fire"],
+      "supertype": "Pokémon",
+      "subtype": "Basic",
+      "hp": "60",
+      "retreatCost": ["Colorless"],
+      "convertedRetreatCost": 1,
+      "number": "31",
+      "artist": "Sekio",
+      "rarity": "Common",
+      "series": "Sword & Shield",
+      "set": "Rebel Clash",
+      "setCode": "swsh2",
+      "attacks": [
+        {
+          "cost": ["Fire"],
+          "name": "Scorch",
+          "text": "Your opponent's Active Pokémon is now Burned.",
+          "damage": "",
+          "convertedEnergyCost": 1
+        }
+      ],
+      "weaknesses": [{ "type": "Water", "value": "×2" }]
+    },
+    {
+      "id": "swsh2-32",
+      "name": "Lampent",
+      "nationalPokedexNumber": 608,
+      "imageUrl": "https://images.pokemontcg.io/swsh2/32.png",
+      "imageUrlHiRes": "https://images.pokemontcg.io/swsh2/32_hires.png",
+      "types": ["Fire"],
+      "supertype": "Pokémon",
+      "subtype": "Stage 1",
+      "evolvesFrom": "Litwick",
+      "ability": {
+        "name": "Top Entry",
+        "text": "Once during your turn, if you drew this Pokémon from your deck at the beginning of your turn and your Bench isn't full, before you put it into your hand, you may put it onto your Bench.",
+        "type": "Ability"
+      },
+      "hp": "80",
+      "retreatCost": ["Colorless"],
+      "convertedRetreatCost": 1,
+      "number": "32",
+      "artist": "Kyoko Umemoto",
+      "rarity": "Uncommon",
+      "series": "Sword & Shield",
+      "set": "Rebel Clash",
+      "setCode": "swsh2",
+      "attacks": [
+        {
+          "cost": ["Fire"],
+          "name": "Reignite",
+          "text": "Attach a Fire Energy card from your discard pile to 1 of your Pokémon.",
+          "damage": "20",
+          "convertedEnergyCost": 1
+        }
+      ],
+      "weaknesses": [{ "type": "Water", "value": "×2" }]
+    },
+    {
+      "id": "swsh2-33",
+      "name": "Chandelure",
+      "nationalPokedexNumber": 609,
+      "imageUrl": "https://images.pokemontcg.io/swsh2/33.png",
+      "imageUrlHiRes": "https://images.pokemontcg.io/swsh2/33_hires.png",
+      "types": ["Fire"],
+      "supertype": "Pokémon",
+      "subtype": "Stage 2",
+      "evolvesFrom": "Lampent",
+      "ability": {
+        "name": "Protective Glow",
+        "text": "All of your Pokémon that have Energy attached have no Weakness.",
+        "type": "Ability"
+      },
+      "hp": "140",
+      "retreatCost": ["Colorless", "Colorless"],
+      "convertedRetreatCost": 2,
+      "number": "33",
+      "artist": "Taira Akitsu",
+      "rarity": "Rare Holo",
+      "series": "Sword & Shield",
+      "set": "Rebel Clash",
+      "setCode": "swsh2",
+      "attacks": [
+        {
+          "cost": ["Fire", "Colorless"],
+          "name": "Mirage Flare",
+          "text": "Your opponent's Active Pokémon is now Confused.",
+          "damage": "110",
+          "convertedEnergyCost": 2
+        }
+      ],
+      "weaknesses": [{ "type": "Water", "value": "×2" }]
+    },
+    {
+      "id": "swsh2-34",
+      "name": "Heatmor",
+      "nationalPokedexNumber": 631,
+      "imageUrl": "https://images.pokemontcg.io/swsh2/34.png",
+      "imageUrlHiRes": "https://images.pokemontcg.io/swsh2/34_hires.png",
+      "types": ["Fire"],
+      "supertype": "Pokémon",
+      "subtype": "Basic",
+      "hp": "120",
+      "retreatCost": ["Colorless", "Colorless"],
+      "convertedRetreatCost": 2,
+      "number": "34",
+      "artist": "Satoshi Shirai",
+      "rarity": "Uncommon",
+      "series": "Sword & Shield",
+      "set": "Rebel Clash",
+      "setCode": "swsh2",
+      "attacks": [
+        {
+          "cost": ["Colorless"],
+          "name": "Lick",
+          "text": "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.",
+          "damage": "20",
+          "convertedEnergyCost": 1
+        },
+        {
+          "cost": ["Fire", "Fire", "Colorless"],
+          "name": "Flamethrower",
+          "text": "Discard an Energy from this Pokémon.",
+          "damage": "120",
+          "convertedEnergyCost": 3
+        }
+      ],
+      "weaknesses": [{ "type": "Water", "value": "×2" }]
+    },
+    {
+      "id": "swsh2-35",
+      "name": "Cinderace V",
+      "nationalPokedexNumber": 815,
+      "imageUrl": "https://images.pokemontcg.io/swsh2/35.png",
+      "imageUrlHiRes": "https://images.pokemontcg.io/swsh2/35_hires.png",
+      "types": ["Fire"],
+      "supertype": "Pokémon",
+      "subtype": "V",
+      "ability": {
+        "name": "Field Runner",
+        "text": "If a Stadium is in play, this Pokémon has no Retreat Cost.",
+        "type": "Ability"
+      },
+      "hp": "210",
+      "retreatCost": ["Colorless", "Colorless"],
+      "convertedRetreatCost": 2,
+      "number": "35",
+      "artist": "5ban Graphics",
+      "rarity": "Rare Holo",
+      "series": "Sword & Shield",
+      "set": "Rebel Clash",
+      "setCode": "swsh2",
+      "text": [
+        "When your Pokémon V is Knocked Out, your opponent takes 2 Prize cards."
+      ],
+      "attacks": [
+        {
+          "cost": ["Fire", "Fire", "Colorless"],
+          "name": "Crimson Legs",
+          "text": "",
+          "damage": "140",
+          "convertedEnergyCost": 3
+        }
+      ],
+      "weaknesses": [{ "type": "Water", "value": "×2" }]
+    },
+    {
+      "id": "swsh2-36",
+      "name": "Cinderace VMAX",
+      "nationalPokedexNumber": 815,
+      "imageUrl": "https://images.pokemontcg.io/swsh2/36.png",
+      "imageUrlHiRes": "https://images.pokemontcg.io/swsh2/36_hires.png",
+      "types": ["Fire"],
+      "supertype": "Pokémon",
+      "subtype": "VMAX",
+      "evolvesFrom": "Cinderace V",
+      "hp": "320",
+      "retreatCost": ["Colorless", "Colorless"],
+      "convertedRetreatCost": 2,
+      "number": "36",
+      "artist": "5ban Graphics",
+      "rarity": "Rare Holo",
+      "series": "Sword & Shield",
+      "set": "Rebel Clash",
+      "setCode": "swsh2",
+      "text": [
+        "When your Pokémon VMAX is Knocked Out, your opponent takes 3 Prize cards."
+      ],
+      "attacks": [
+        {
+          "cost": ["Fire", "Colorless"],
+          "name": "Counter",
+          "text": "If this Pokémon was damaged by an attack during your opponent's last turn, this attack does that much more damage.",
+          "damage": "30+",
+          "convertedEnergyCost": 2
+        },
+        {
+          "cost": ["Fire", "Fire", "Colorless"],
+          "name": "Max Pyro Ball",
+          "text": "Your opponent's Active Pokémon is now Burned.",
+          "damage": "170",
+          "convertedEnergyCost": 3
+        }
+      ],
+      "weaknesses": [{ "type": "Water", "value": "×2" }]
+    },
+    {
+      "id": "swsh2-37",
+      "name": "Galarian Mr. Mime",
+      "imageUrl": "https://images.pokemontcg.io/swsh2/37.png",
+      "imageUrlHiRes": "https://images.pokemontcg.io/swsh2/37_hires.png",
+      "types": ["Water"],
+      "supertype": "Pokémon",
+      "subtype": "Basic",
+      "hp": "80",
+      "retreatCost": ["Colorless"],
+      "convertedRetreatCost": 1,
+      "number": "37",
+      "artist": "kirisAki",
+      "rarity": "Common",
+      "series": "Sword & Shield",
+      "set": "Rebel Clash",
+      "setCode": "swsh2",
+      "attacks": [
+        {
+          "cost": ["Colorless"],
+          "name": "Icy Wind",
+          "text": "Your opponent's Active Pokémon is now Asleep.",
+          "damage": "10",
+          "convertedEnergyCost": 1
+        },
+        {
+          "cost": ["Water", "Colorless"],
+          "name": "Triple Spin",
+          "text": "Flip 3 coins. This attack does 20 damage for each heads.",
+          "damage": "20×",
+          "convertedEnergyCost": 2
+        }
+      ],
+      "weaknesses": [{ "type": "Metal", "value": "×2" }]
+    },
+    {
+      "id": "swsh2-38",
+      "name": "Galarian Mr. Rime",
+      "imageUrl": "https://images.pokemontcg.io/swsh2/38.png",
+      "imageUrlHiRes": "https://images.pokemontcg.io/swsh2/38_hires.png",
+      "types": ["Water"],
+      "supertype": "Pokémon",
+      "subtype": "Stage 1",
+      "evolvesFrom": "Galarian Mr. Mime",
+      "ability": {
+        "name": "Screen Cleaner",
+        "text": "Prevent all effects of your opponent's attacks, except damage, done to all of your Pokémon that have Energy attached. (Existing effects are not removed.)",
+        "type": "Ability"
+      },
+      "hp": "110",
+      "retreatCost": ["Colorless"],
+      "convertedRetreatCost": 1,
+      "number": "38",
+      "artist": "Mitsuhiro Arita",
+      "rarity": "Rare",
+      "series": "Sword & Shield",
+      "set": "Rebel Clash",
+      "setCode": "swsh2",
+      "attacks": [
+        {
+          "cost": ["Water", "Colorless"],
+          "name": "Triple Spin",
+          "text": "Flip 3 coins. This attack does 50 damage for each heads.",
+          "damage": "50×",
+          "convertedEnergyCost": 2
+        }
+      ],
+      "weaknesses": [{ "type": "Metal", "value": "×2" }]
+    },
+    {
+      "id": "swsh2-39",
+      "name": "Magikarp",
+      "nationalPokedexNumber": 129,
+      "imageUrl": "https://images.pokemontcg.io/swsh2/39.png",
+      "imageUrlHiRes": "https://images.pokemontcg.io/swsh2/39_hires.png",
+      "types": ["Water"],
+      "supertype": "Pokémon",
+      "subtype": "Basic",
+      "hp": "30",
+      "retreatCost": ["Colorless"],
+      "convertedRetreatCost": 1,
+      "number": "39",
+      "artist": "kanahei",
+      "rarity": "Common",
+      "series": "Sword & Shield",
+      "set": "Rebel Clash",
+      "setCode": "swsh2",
+      "attacks": [
+        {
+          "cost": ["Colorless"],
+          "name": "Leap Out",
+          "text": "Switch this Pokémon with 1 of your Benched Pokémon.",
+          "damage": "",
+          "convertedEnergyCost": 1
+        }
+      ],
+      "weaknesses": [{ "type": "Lightning", "value": "×2" }]
+    },
+    {
+      "id": "swsh2-40",
+      "name": "Gyarados",
+      "nationalPokedexNumber": 130,
+      "imageUrl": "https://images.pokemontcg.io/swsh2/40.png",
+      "imageUrlHiRes": "https://images.pokemontcg.io/swsh2/40_hires.png",
+      "types": ["Water"],
+      "supertype": "Pokémon",
+      "subtype": "Stage 1",
+      "evolvesFrom": "Magikarp",
+      "hp": "180",
+      "retreatCost": ["Colorless", "Colorless", "Colorless", "Colorless"],
+      "convertedRetreatCost": 4,
+      "number": "40",
+      "artist": "hatachu",
+      "rarity": "Rare Holo",
+      "series": "Sword & Shield",
+      "set": "Rebel Clash",
+      "setCode": "swsh2",
+      "attacks": [
+        {
+          "cost": ["Colorless", "Colorless", "Colorless"],
+          "name": "Wrack Down",
+          "text": "",
+          "damage": "90",
+          "convertedEnergyCost": 3
+        },
+        {
+          "cost": ["Water", "Water", "Colorless", "Colorless", "Colorless"],
+          "name": "Big Storm",
+          "text": "Discard any Stadium in play.",
+          "damage": "200",
+          "convertedEnergyCost": 5
+        }
+      ],
+      "weaknesses": [{ "type": "Lightning", "value": "×2" }]
+    },
+    {
+      "id": "swsh2-41",
+      "name": "Wingull",
+      "nationalPokedexNumber": 278,
+      "imageUrl": "https://images.pokemontcg.io/swsh2/41.png",
+      "imageUrlHiRes": "https://images.pokemontcg.io/swsh2/41_hires.png",
+      "types": ["Water"],
+      "supertype": "Pokémon",
+      "subtype": "Basic",
+      "hp": "70",
+      "retreatCost": ["Colorless"],
+      "convertedRetreatCost": 1,
+      "number": "41",
+      "artist": "0313",
+      "rarity": "Common",
+      "series": "Sword & Shield",
+      "set": "Rebel Clash",
+      "setCode": "swsh2",
+      "attacks": [
+        {
+          "cost": ["Colorless"],
+          "name": "Collect",
+          "text": "Draw a card.",
+          "damage": "",
+          "convertedEnergyCost": 1
+        },
+        {
+          "cost": ["Water", "Colorless"],
+          "name": "Wave Splash",
+          "text": "",
+          "damage": "20",
+          "convertedEnergyCost": 2
+        }
+      ],
+      "resistances": [{ "type": "Fighting", "value": "-30" }],
+      "weaknesses": [{ "type": "Lightning", "value": "×2" }]
+    },
+    {
+      "id": "swsh2-42",
+      "name": "Pelipper",
+      "nationalPokedexNumber": 279,
+      "imageUrl": "https://images.pokemontcg.io/swsh2/42.png",
+      "imageUrlHiRes": "https://images.pokemontcg.io/swsh2/42_hires.png",
+      "types": ["Water"],
+      "supertype": "Pokémon",
+      "subtype": "Stage 1",
+      "evolvesFrom": "Wingull",
+      "hp": "120",
+      "retreatCost": ["Colorless", "Colorless"],
+      "convertedRetreatCost": 2,
+      "number": "42",
+      "artist": "Eri Yamaki",
+      "rarity": "Uncommon",
+      "series": "Sword & Shield",
+      "set": "Rebel Clash",
+      "setCode": "swsh2",
+      "attacks": [
+        {
+          "cost": ["Colorless", "Colorless"],
+          "name": "Wing Attack",
+          "text": "",
+          "damage": "50",
+          "convertedEnergyCost": 2
+        },
+        {
+          "cost": ["Water", "Colorless", "Colorless"],
+          "name": "Power Cyclone",
+          "text": "Move an Energy from this Pokémon to 1 of your Benched Pokémon.",
+          "damage": "110",
+          "convertedEnergyCost": 3
+        }
+      ],
+      "resistances": [{ "type": "Fighting", "value": "-30" }],
+      "weaknesses": [{ "type": "Lightning", "value": "×2" }]
+    },
+    {
+      "id": "swsh2-43",
+      "name": "Milotic V",
+      "nationalPokedexNumber": 350,
+      "imageUrl": "https://images.pokemontcg.io/swsh2/43.png",
+      "imageUrlHiRes": "https://images.pokemontcg.io/swsh2/43_hires.png",
+      "types": ["Water"],
+      "supertype": "Pokémon",
+      "subtype": "V",
+      "hp": "210",
+      "retreatCost": ["Colorless", "Colorless"],
+      "convertedRetreatCost": 2,
+      "number": "43",
+      "artist": "Ayaka Yoshida",
+      "rarity": "Rare Holo",
+      "series": "Sword & Shield",
+      "set": "Rebel Clash",
+      "setCode": "swsh2",
+      "text": [
+        "When your Pokémon V is Knocked Out, your opponent takes 2 Prize cards."
+      ],
+      "attacks": [
+        {
+          "cost": ["Water", "Colorless", "Colorless"],
+          "name": "Aqua Impact",
+          "text": "This attack does 50 more damage for each Colorless in your opponent's Active Pokémon's Retreat Cost.",
+          "damage": "10+",
+          "convertedEnergyCost": 3
+        },
+        {
+          "cost": ["Water", "Colorless", "Colorless", "Colorless"],
+          "name": "Hypno Splash",
+          "text": "Your opponent's Active Pokémon is now Asleep.",
+          "damage": "150",
+          "convertedEnergyCost": 4
+        }
+      ],
+      "weaknesses": [{ "type": "Lightning", "value": "×2" }]
+    },
+    {
+      "id": "swsh2-44",
+      "name": "Tympole",
+      "nationalPokedexNumber": 535,
+      "imageUrl": "https://images.pokemontcg.io/swsh2/44.png",
+      "imageUrlHiRes": "https://images.pokemontcg.io/swsh2/44_hires.png",
+      "types": ["Water"],
+      "supertype": "Pokémon",
+      "subtype": "Basic",
+      "hp": "60",
+      "retreatCost": ["Colorless"],
+      "convertedRetreatCost": 1,
+      "number": "44",
+      "artist": "Aya Kusube",
+      "rarity": "Common",
+      "series": "Sword & Shield",
+      "set": "Rebel Clash",
+      "setCode": "swsh2",
+      "attacks": [
+        {
+          "cost": ["Colorless"],
+          "name": "Spiral Attack",
+          "text": "Your opponent's Active Pokémon is now Confused.",
+          "damage": "",
+          "convertedEnergyCost": 1
+        }
+      ],
+      "weaknesses": [{ "type": "Lightning", "value": "×2" }]
+    },
+    {
+      "id": "swsh2-45",
+      "name": "Palpitoad",
+      "nationalPokedexNumber": 536,
+      "imageUrl": "https://images.pokemontcg.io/swsh2/45.png",
+      "imageUrlHiRes": "https://images.pokemontcg.io/swsh2/45_hires.png",
+      "types": ["Water"],
+      "supertype": "Pokémon",
+      "subtype": "Stage 1",
+      "evolvesFrom": "Tympole",
+      "hp": "90",
+      "retreatCost": ["Colorless", "Colorless"],
+      "convertedRetreatCost": 2,
+      "number": "45",
+      "artist": "MAHOU",
+      "rarity": "Uncommon",
+      "series": "Sword & Shield",
+      "set": "Rebel Clash",
+      "setCode": "swsh2",
+      "attacks": [
+        {
+          "cost": ["Colorless", "Colorless"],
+          "name": "Twirling Sign",
+          "text": "Your opponent's Active Pokémon is now Confused.",
+          "damage": "30",
+          "convertedEnergyCost": 2
+        }
+      ],
+      "weaknesses": [{ "type": "Lightning", "value": "×2" }]
+    },
+    {
+      "id": "swsh2-46",
+      "name": "Seismitoad",
+      "nationalPokedexNumber": 537,
+      "imageUrl": "https://images.pokemontcg.io/swsh2/46.png",
+      "imageUrlHiRes": "https://images.pokemontcg.io/swsh2/46_hires.png",
+      "types": ["Water"],
+      "supertype": "Pokémon",
+      "subtype": "Stage 2",
+      "evolvesFrom": "Palpitoad",
+      "hp": "170",
+      "retreatCost": ["Colorless", "Colorless", "Colorless"],
+      "convertedRetreatCost": 3,
+      "number": "46",
+      "artist": "SATOSHI NAKAI",
+      "rarity": "Rare",
+      "series": "Sword & Shield",
+      "set": "Rebel Clash",
+      "setCode": "swsh2",
+      "attacks": [
+        {
+          "cost": ["Water"],
+          "name": "Split Spiral Punch",
+          "text": "Your opponent's Active Pokémon is now Confused.",
+          "damage": "30",
+          "convertedEnergyCost": 1
+        },
+        {
+          "cost": ["Water", "Colorless", "Colorless", "Colorless"],
+          "name": "Resonance",
+          "text": "If your opponent's Active Pokémon is Confused, this attack does 120 more damage.",
+          "damage": "120+",
+          "convertedEnergyCost": 4
+        }
+      ],
+      "weaknesses": [{ "type": "Lightning", "value": "×2" }]
+    },
+    {
+      "id": "swsh2-47",
+      "name": "Galarian Darumaka",
+      "nationalPokedexNumber": 554,
+      "imageUrl": "https://images.pokemontcg.io/swsh2/47.png",
+      "imageUrlHiRes": "https://images.pokemontcg.io/swsh2/47_hires.png",
+      "types": ["Water"],
+      "supertype": "Pokémon",
+      "subtype": "Basic",
+      "hp": "80",
+      "retreatCost": ["Colorless", "Colorless"],
+      "convertedRetreatCost": 2,
+      "number": "47",
+      "artist": "Akira Komayama",
+      "rarity": "Common",
+      "series": "Sword & Shield",
+      "set": "Rebel Clash",
+      "setCode": "swsh2",
+      "attacks": [
+        {
+          "cost": ["Water", "Colorless"],
+          "name": "Ice Punch",
+          "text": "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.",
+          "damage": "30",
+          "convertedEnergyCost": 2
+        }
+      ],
+      "weaknesses": [{ "type": "Metal", "value": "×2" }]
+    },
+    {
+      "id": "swsh2-48",
+      "name": "Galarian Darmanitan",
+      "nationalPokedexNumber": 555,
+      "imageUrl": "https://images.pokemontcg.io/swsh2/48.png",
+      "imageUrlHiRes": "https://images.pokemontcg.io/swsh2/48_hires.png",
+      "types": ["Water"],
+      "supertype": "Pokémon",
+      "subtype": "Stage 1",
+      "evolvesFrom": "Galarian Darumaka",
+      "hp": "140",
+      "retreatCost": ["Colorless", "Colorless", "Colorless"],
+      "convertedRetreatCost": 3,
+      "number": "48",
+      "artist": "Kouki Saitou",
+      "rarity": "Rare",
+      "series": "Sword & Shield",
+      "set": "Rebel Clash",
+      "setCode": "swsh2",
+      "attacks": [
+        {
+          "cost": ["Water", "Colorless", "Colorless"],
+          "name": "Blizzard",
+          "text": "This attack also does 10 damage to each of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+          "damage": "80",
+          "convertedEnergyCost": 3
+        },
+        {
+          "cost": ["Water", "Water", "Colorless", "Colorless"],
+          "name": "Crushing Headbutt",
+          "text": "During your next turn, this Pokémon can't use Crushing Headbutt.",
+          "damage": "170",
+          "convertedEnergyCost": 4
+        }
+      ],
+      "weaknesses": [{ "type": "Metal", "value": "×2" }]
+    },
+    {
+      "id": "swsh2-49",
+      "name": "Inteleon V",
+      "nationalPokedexNumber": 818,
+      "imageUrl": "https://images.pokemontcg.io/swsh2/49.png",
+      "imageUrlHiRes": "https://images.pokemontcg.io/swsh2/49_hires.png",
+      "types": ["Water"],
+      "supertype": "Pokémon",
+      "subtype": "V",
+      "hp": "200",
+      "retreatCost": ["Colorless", "Colorless"],
+      "convertedRetreatCost": 2,
+      "number": "49",
+      "artist": "5ban Graphics",
+      "rarity": "Rare Holo",
+      "series": "Sword & Shield",
+      "set": "Rebel Clash",
+      "setCode": "swsh2",
+      "text": [
+        "When your Pokémon V is Knocked Out, your opponent takes 2 Prize cards."
+      ],
+      "attacks": [
+        {
+          "cost": ["Water"],
+          "name": "Snipe Shot",
+          "text": "This attack does 40 damage to 1 of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+          "damage": "",
+          "convertedEnergyCost": 1
+        },
+        {
+          "cost": ["Water", "Water", "Colorless"],
+          "name": "Aqua Report",
+          "text": "Your opponent reveals their hand.",
+          "damage": "130",
+          "convertedEnergyCost": 3
+        }
+      ],
+      "weaknesses": [{ "type": "Lightning", "value": "×2" }]
+    },
+    {
+      "id": "swsh2-50",
+      "name": "Inteleon VMAX",
+      "nationalPokedexNumber": 818,
+      "imageUrl": "https://images.pokemontcg.io/swsh2/50.png",
+      "imageUrlHiRes": "https://images.pokemontcg.io/swsh2/50_hires.png",
+      "types": ["Water"],
+      "supertype": "Pokémon",
+      "subtype": "VMAX",
+      "evolvesFrom": "Inteleon V",
+      "hp": "320",
+      "retreatCost": ["Colorless", "Colorless"],
+      "convertedRetreatCost": 2,
+      "number": "50",
+      "artist": "5ban Graphics",
+      "rarity": "Rare Holo",
+      "series": "Sword & Shield",
+      "set": "Rebel Clash",
+      "setCode": "swsh2",
+      "text": [
+        "When your Pokémon VMAX is Knocked Out, your opponent takes 3 Prize cards."
+      ],
+      "attacks": [
+        {
+          "cost": ["Water"],
+          "name": "Hydro Snipe",
+          "text": "You may put an Energy attached to your opponent's Active Pokémon into their hand.",
+          "damage": "60",
+          "convertedEnergyCost": 1
+        },
+        {
+          "cost": ["Water", "Water", "Colorless"],
+          "name": "Max Bullet",
+          "text": "This attack also does 60 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+          "damage": "160",
+          "convertedEnergyCost": 3
+        }
+      ],
+      "weaknesses": [{ "type": "Lightning", "value": "×2" }]
+    },
+    {
+      "id": "swsh2-52",
+      "name": "Arrokuda",
+      "nationalPokedexNumber": 846,
+      "imageUrl": "https://images.pokemontcg.io/swsh2/52.png",
+      "imageUrlHiRes": "https://images.pokemontcg.io/swsh2/52_hires.png",
+      "types": ["Water"],
+      "supertype": "Pokémon",
+      "subtype": "Basic",
+      "hp": "60",
+      "retreatCost": ["Colorless"],
+      "convertedRetreatCost": 1,
+      "number": "52",
+      "artist": "Mina Nakai",
+      "rarity": "Common",
+      "series": "Sword & Shield",
+      "set": "Rebel Clash",
+      "setCode": "swsh2",
+      "attacks": [
+        {
+          "cost": ["Water"],
+          "name": "Rain Splash",
+          "text": "",
+          "damage": "20",
+          "convertedEnergyCost": 1
+        }
+      ],
+      "weaknesses": [{ "type": "Lightning", "value": "×2" }]
+    },
+    {
+      "id": "swsh2-51",
+      "name": "Cramorant",
+      "nationalPokedexNumber": 845,
+      "imageUrl": "https://images.pokemontcg.io/swsh2/51.png",
+      "imageUrlHiRes": "https://images.pokemontcg.io/swsh2/51_hires.png",
+      "types": ["Water"],
+      "supertype": "Pokémon",
+      "subtype": "Basic",
+      "hp": "110",
+      "retreatCost": ["Colorless"],
+      "convertedRetreatCost": 1,
+      "number": "51",
+      "artist": "Mitsuhiro Arita",
+      "rarity": "Rare",
+      "series": "Sword & Shield",
+      "set": "Rebel Clash",
+      "setCode": "swsh2",
+      "attacks": [
+        {
+          "cost": ["Water"],
+          "name": "Dive",
+          "text": "Flip a coin. If heads, during your opponent's next turn, prevent all effects of attacks, including damage, done to this Pokémon.",
+          "damage": "20",
+          "convertedEnergyCost": 1
+        },
+        {
+          "cost": ["Colorless", "Colorless", "Colorless"],
+          "name": "Hydro Pump",
+          "text": "This attack does 20 more damage for each Water Energy attached to this Pokémon.",
+          "damage": "50+",
+          "convertedEnergyCost": 3
+        }
+      ],
+      "resistances": [{ "type": "Fighting", "value": "-30" }],
+      "weaknesses": [{ "type": "Lightning", "value": "×2" }]
+    },
+    {
+      "id": "swsh2-53",
+      "name": "Barraskewda",
+      "nationalPokedexNumber": 847,
+      "imageUrl": "https://images.pokemontcg.io/swsh2/53.png",
+      "imageUrlHiRes": "https://images.pokemontcg.io/swsh2/53_hires.png",
+      "types": ["Water"],
+      "supertype": "Pokémon",
+      "subtype": "Stage 1",
+      "evolvesFrom": "Arrokuda",
+      "hp": "120",
+      "retreatCost": ["Colorless"],
+      "convertedRetreatCost": 1,
+      "number": "53",
+      "artist": "Kouki Saitou",
+      "rarity": "Rare",
+      "series": "Sword & Shield",
+      "set": "Rebel Clash",
+      "setCode": "swsh2",
+      "attacks": [
+        {
+          "cost": ["Colorless"],
+          "name": "Peck",
+          "text": "",
+          "damage": "30",
+          "convertedEnergyCost": 1
+        },
+        {
+          "cost": ["Water"],
+          "name": "Spiral Jet",
+          "text": "Discard 2 Water Energy cards from your hand. If you don't, this attack does nothing.",
+          "damage": "130",
+          "convertedEnergyCost": 1
+        }
+      ],
+      "weaknesses": [{ "type": "Lightning", "value": "×2" }]
+    },
+    {
+      "id": "swsh2-54",
+      "name": "Eiscue",
+      "nationalPokedexNumber": 875,
+      "imageUrl": "https://images.pokemontcg.io/swsh2/54.png",
+      "imageUrlHiRes": "https://images.pokemontcg.io/swsh2/54_hires.png",
+      "types": ["Water"],
+      "supertype": "Pokémon",
+      "subtype": "Basic",
+      "ability": {
+        "name": "Ice Face",
+        "text": "If this Pokémon has full HP, it takes 60 less damage from your opponent's attacks (after applying Weakness and Resistance).",
+        "type": "Ability"
+      },
+      "hp": "120",
+      "retreatCost": ["Colorless", "Colorless"],
+      "convertedRetreatCost": 2,
+      "number": "54",
+      "artist": "Kagemaru Himeno",
+      "rarity": "Rare Holo",
+      "series": "Sword & Shield",
+      "set": "Rebel Clash",
+      "setCode": "swsh2",
+      "attacks": [
+        {
+          "cost": ["Water", "Colorless", "Colorless"],
+          "name": "Blizzard",
+          "text": "This attack also does 10 damage to each of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+          "damage": "70",
+          "convertedEnergyCost": 3
+        }
+      ],
+      "weaknesses": [{ "type": "Metal", "value": "×2" }]
+    },
+    {
+      "id": "swsh2-55",
+      "name": "Eiscue V",
+      "nationalPokedexNumber": 875,
+      "imageUrl": "https://images.pokemontcg.io/swsh2/55.png",
+      "imageUrlHiRes": "https://images.pokemontcg.io/swsh2/55_hires.png",
+      "types": ["Water"],
+      "supertype": "Pokémon",
+      "subtype": "V",
+      "ability": {
+        "name": "Cold Absorption",
+        "text": "Whenever you attach a Water Energy card from your hand to this Pokémon during your turn, heal 30 damage from it.",
+        "type": "Ability"
+      },
+      "hp": "210",
+      "retreatCost": ["Colorless", "Colorless"],
+      "convertedRetreatCost": 2,
+      "number": "55",
+      "artist": "PLANETA Tsuji",
+      "rarity": "Rare Holo",
+      "series": "Sword & Shield",
+      "set": "Rebel Clash",
+      "setCode": "swsh2",
+      "text": [
+        "When your Pokémon V is Knocked Out, your opponent takes 2 Prize cards."
+      ],
+      "attacks": [
+        {
+          "cost": ["Water", "Water", "Colorless"],
+          "name": "Blizzard",
+          "text": "This attack also does 10 damage to each of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+          "damage": "120",
+          "convertedEnergyCost": 3
+        }
+      ],
+      "weaknesses": [{ "type": "Metal", "value": "×2" }]
+    },
+    {
+      "id": "swsh2-56",
+      "name": "Voltorb",
+      "nationalPokedexNumber": 100,
+      "imageUrl": "https://images.pokemontcg.io/swsh2/56.png",
+      "imageUrlHiRes": "https://images.pokemontcg.io/swsh2/56_hires.png",
+      "types": ["Lightning"],
+      "supertype": "Pokémon",
+      "subtype": "Basic",
+      "hp": "50",
+      "retreatCost": ["Colorless"],
+      "convertedRetreatCost": 1,
+      "number": "56",
+      "artist": "Hasegawa Saki",
+      "rarity": "Common",
+      "series": "Sword & Shield",
+      "set": "Rebel Clash",
+      "setCode": "swsh2",
+      "attacks": [
+        {
+          "cost": ["Colorless"],
+          "name": "Continuous Tumble",
+          "text": "Flip a coin until you get tails. This attack does 20 damage for each heads.",
+          "damage": "20×",
+          "convertedEnergyCost": 1
+        }
+      ],
+      "weaknesses": [{ "type": "Fighting", "value": "×2" }]
+    },
+    {
+      "id": "swsh2-57",
+      "name": "Electrode",
+      "nationalPokedexNumber": 101,
+      "imageUrl": "https://images.pokemontcg.io/swsh2/57.png",
+      "imageUrlHiRes": "https://images.pokemontcg.io/swsh2/57_hires.png",
+      "types": ["Lightning"],
+      "supertype": "Pokémon",
+      "subtype": "Stage 1",
+      "evolvesFrom": "Voltorb",
+      "hp": "90",
+      "number": "57",
+      "artist": "otumami",
+      "rarity": "Uncommon",
+      "series": "Sword & Shield",
+      "set": "Rebel Clash",
+      "setCode": "swsh2",
+      "attacks": [
+        {
+          "cost": ["Colorless"],
+          "name": "Orb Collector",
+          "text": "Search your deck for up to 3 Energy cards, reveal them, and put them into your hand. Then, shuffle your deck.",
+          "damage": "",
+          "convertedEnergyCost": 1
+        },
+        {
+          "cost": ["Lightning", "Colorless"],
+          "name": "Rolling Attack",
+          "text": "",
+          "damage": "70",
+          "convertedEnergyCost": 2
+        }
+      ],
+      "weaknesses": [{ "type": "Fighting", "value": "×2" }]
+    },
+    {
+      "id": "swsh2-58",
+      "name": "Electabuzz",
+      "nationalPokedexNumber": 125,
+      "imageUrl": "https://images.pokemontcg.io/swsh2/58.png",
+      "imageUrlHiRes": "https://images.pokemontcg.io/swsh2/58_hires.png",
+      "types": ["Lightning"],
+      "supertype": "Pokémon",
+      "subtype": "Basic",
+      "hp": "90",
+      "retreatCost": ["Colorless", "Colorless"],
+      "convertedRetreatCost": 2,
+      "number": "58",
+      "artist": "Midori Harada",
+      "rarity": "Common",
+      "series": "Sword & Shield",
+      "set": "Rebel Clash",
+      "setCode": "swsh2",
+      "attacks": [
+        {
+          "cost": ["Colorless"],
+          "name": "Knuckle Punch",
+          "text": "",
+          "damage": "10",
+          "convertedEnergyCost": 1
+        },
+        {
+          "cost": ["Lightning", "Lightning", "Colorless"],
+          "name": "Electroslug",
+          "text": "",
+          "damage": "70",
+          "convertedEnergyCost": 3
+        }
+      ],
+      "weaknesses": [{ "type": "Fighting", "value": "×2" }]
+    },
+    {
+      "id": "swsh2-59",
+      "name": "Electivire",
+      "nationalPokedexNumber": 466,
+      "imageUrl": "https://images.pokemontcg.io/swsh2/59.png",
+      "imageUrlHiRes": "https://images.pokemontcg.io/swsh2/59_hires.png",
+      "types": ["Lightning"],
+      "supertype": "Pokémon",
+      "subtype": "Stage 1",
+      "evolvesFrom": "Electabuzz",
+      "hp": "140",
+      "retreatCost": ["Colorless", "Colorless", "Colorless"],
+      "convertedRetreatCost": 3,
+      "number": "59",
+      "artist": "tetsuya koizumi",
+      "rarity": "Rare",
+      "series": "Sword & Shield",
+      "set": "Rebel Clash",
+      "setCode": "swsh2",
+      "attacks": [
+        {
+          "cost": ["Lightning", "Colorless"],
+          "name": "Thunder Shock",
+          "text": "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.",
+          "damage": "50",
+          "convertedEnergyCost": 2
+        },
+        {
+          "cost": ["Lightning", "Lightning", "Colorless"],
+          "name": "Electrified Bolt",
+          "text": "If this Pokémon has any Special Energy attached, this attack does 90 more damage.",
+          "damage": "90+",
+          "convertedEnergyCost": 3
+        }
+      ],
+      "weaknesses": [{ "type": "Fighting", "value": "×2" }]
+    },
+    {
+      "id": "swsh2-60",
+      "name": "Shinx",
+      "nationalPokedexNumber": 403,
+      "imageUrl": "https://images.pokemontcg.io/swsh2/60.png",
+      "imageUrlHiRes": "https://images.pokemontcg.io/swsh2/60_hires.png",
+      "types": ["Lightning"],
+      "supertype": "Pokémon",
+      "subtype": "Basic",
+      "hp": "60",
+      "retreatCost": ["Colorless"],
+      "convertedRetreatCost": 1,
+      "number": "60",
+      "artist": "Uta",
+      "rarity": "Common",
+      "series": "Sword & Shield",
+      "set": "Rebel Clash",
+      "setCode": "swsh2",
+      "attacks": [
+        {
+          "cost": ["Lightning"],
+          "name": "Under Pressure",
+          "text": "If your opponent has 3 or fewer Prize cards remaining, this attack does 50 more damage.",
+          "damage": "10+",
+          "convertedEnergyCost": 1
+        }
+      ],
+      "weaknesses": [{ "type": "Fighting", "value": "×2" }]
+    },
+    {
+      "id": "swsh2-61",
+      "name": "Luxio",
+      "nationalPokedexNumber": 404,
+      "imageUrl": "https://images.pokemontcg.io/swsh2/61.png",
+      "imageUrlHiRes": "https://images.pokemontcg.io/swsh2/61_hires.png",
+      "types": ["Lightning"],
+      "supertype": "Pokémon",
+      "subtype": "Stage 1",
+      "evolvesFrom": "Shinx",
+      "ability": {
+        "name": "Top Entry",
+        "text": "Once during your turn, if you drew this Pokémon from your deck at the beginning of your turn and your Bench isn't full, before you put it into your hand, you may put it onto your Bench.",
+        "type": "Ability"
+      },
+      "hp": "90",
+      "retreatCost": ["Colorless"],
+      "convertedRetreatCost": 1,
+      "number": "61",
+      "artist": "ryoma uratsuka",
+      "rarity": "Uncommon",
+      "series": "Sword & Shield",
+      "set": "Rebel Clash",
+      "setCode": "swsh2",
+      "attacks": [
+        {
+          "cost": ["Lightning"],
+          "name": "Zap Kick",
+          "text": "",
+          "damage": "30",
+          "convertedEnergyCost": 1
+        }
+      ],
+      "weaknesses": [{ "type": "Fighting", "value": "×2" }]
+    },
+    {
+      "id": "swsh2-62",
+      "name": "Luxray",
+      "nationalPokedexNumber": 405,
+      "imageUrl": "https://images.pokemontcg.io/swsh2/62.png",
+      "imageUrlHiRes": "https://images.pokemontcg.io/swsh2/62_hires.png",
+      "types": ["Lightning"],
+      "supertype": "Pokémon",
+      "subtype": "Stage 2",
+      "evolvesFrom": "Luxio",
+      "hp": "160",
+      "retreatCost": ["Colorless"],
+      "convertedRetreatCost": 1,
+      "number": "62",
+      "artist": "Hasuno",
+      "rarity": "Rare Holo",
+      "series": "Sword & Shield",
+      "set": "Rebel Clash",
+      "setCode": "swsh2",
+      "attacks": [
+        {
+          "cost": ["Lightning"],
+          "name": "Raid",
+          "text": "If this Pokémon evolved from Luxio during this turn, this attack does 100 more damage.",
+          "damage": "60+",
+          "convertedEnergyCost": 1
+        },
+        {
+          "cost": ["Lightning", "Colorless"],
+          "name": "Head Bolt",
+          "text": "",
+          "damage": "120",
+          "convertedEnergyCost": 2
+        }
+      ],
+      "weaknesses": [{ "type": "Fighting", "value": "×2" }]
+    },
+    {
+      "id": "swsh2-63",
+      "name": "Helioptile",
+      "nationalPokedexNumber": 694,
+      "imageUrl": "https://images.pokemontcg.io/swsh2/63.png",
+      "imageUrlHiRes": "https://images.pokemontcg.io/swsh2/63_hires.png",
+      "types": ["Lightning"],
+      "supertype": "Pokémon",
+      "subtype": "Basic",
+      "hp": "70",
+      "retreatCost": ["Colorless"],
+      "convertedRetreatCost": 1,
+      "number": "63",
+      "artist": "0313",
+      "rarity": "Common",
+      "series": "Sword & Shield",
+      "set": "Rebel Clash",
+      "setCode": "swsh2",
+      "attacks": [
+        {
+          "cost": ["Lightning"],
+          "name": "Thunder Jolt",
+          "text": "This Pokémon also does 10 damage to itself.",
+          "damage": "30",
+          "convertedEnergyCost": 1
+        }
+      ],
+      "weaknesses": [{ "type": "Fighting", "value": "×2" }]
+    },
+    {
+      "id": "swsh2-64",
+      "name": "Heliolisk",
+      "nationalPokedexNumber": 695,
+      "imageUrl": "https://images.pokemontcg.io/swsh2/64.png",
+      "imageUrlHiRes": "https://images.pokemontcg.io/swsh2/64_hires.png",
+      "types": ["Lightning"],
+      "supertype": "Pokémon",
+      "subtype": "Stage 1",
+      "evolvesFrom": "Helioptile",
+      "hp": "110",
+      "retreatCost": ["Colorless"],
+      "convertedRetreatCost": 1,
+      "number": "64",
+      "artist": "SATOSHI NAKAI",
+      "rarity": "Uncommon",
+      "series": "Sword & Shield",
+      "set": "Rebel Clash",
+      "setCode": "swsh2",
+      "attacks": [
+        {
+          "cost": ["Lightning"],
+          "name": "Eerie Impulse",
+          "text": "Flip a coin. If heads, discard an Energy from 1 of your opponent's Pokémon.",
+          "damage": "",
+          "convertedEnergyCost": 1
+        },
+        {
+          "cost": ["Lightning", "Colorless"],
+          "name": "Thunder",
+          "text": "This Pokémon also does 30 damage to itself.",
+          "damage": "120",
+          "convertedEnergyCost": 2
+        }
+      ],
+      "weaknesses": [{ "type": "Fighting", "value": "×2" }]
+    },
+    {
+      "id": "swsh2-65",
+      "name": "Charjabug",
+      "nationalPokedexNumber": 737,
+      "imageUrl": "https://images.pokemontcg.io/swsh2/65.png",
+      "imageUrlHiRes": "https://images.pokemontcg.io/swsh2/65_hires.png",
+      "types": ["Lightning"],
+      "supertype": "Pokémon",
+      "subtype": "Stage 1",
+      "evolvesFrom": "Grubbin",
+      "hp": "90",
+      "retreatCost": ["Colorless", "Colorless"],
+      "convertedRetreatCost": 2,
+      "number": "65",
+      "artist": "Masakazu Fukuda",
+      "rarity": "Uncommon",
+      "series": "Sword & Shield",
+      "set": "Rebel Clash",
+      "setCode": "swsh2",
+      "attacks": [
+        {
+          "cost": ["Colorless"],
+          "name": "Charge",
+          "text": "Search your deck for up to 2 Lightning Energy cards and attach them to this Pokémon. Then, shuffle your deck.",
+          "damage": "",
+          "convertedEnergyCost": 1
+        },
+        {
+          "cost": ["Lightning", "Lightning", "Colorless"],
+          "name": "Lightning Ball",
+          "text": "",
+          "damage": "70",
+          "convertedEnergyCost": 3
+        }
+      ],
+      "weaknesses": [{ "type": "Fighting", "value": "×2" }]
+    },
+    {
+      "id": "swsh2-66",
+      "name": "Vikavolt",
+      "nationalPokedexNumber": 738,
+      "imageUrl": "https://images.pokemontcg.io/swsh2/66.png",
+      "imageUrlHiRes": "https://images.pokemontcg.io/swsh2/66_hires.png",
+      "types": ["Lightning"],
+      "supertype": "Pokémon",
+      "subtype": "Stage 2",
+      "evolvesFrom": "Charjabug",
+      "hp": "150",
+      "retreatCost": ["Colorless", "Colorless"],
+      "convertedRetreatCost": 2,
+      "number": "66",
+      "artist": "kawayoo",
+      "rarity": "Rare Holo",
+      "series": "Sword & Shield",
+      "set": "Rebel Clash",
+      "setCode": "swsh2",
+      "attacks": [
+        {
+          "cost": ["Lightning", "Colorless", "Colorless"],
+          "name": "Powerful Storm",
+          "text": "This attack does 20 more damage for each Energy attached to all of your Pokémon.",
+          "damage": "60+",
+          "convertedEnergyCost": 3
+        },
+        {
+          "cost": ["Lightning", "Colorless", "Colorless", "Colorless"],
+          "name": "Thunder Jolt Beam",
+          "text": "This Pokémon also does 30 damage to itself.",
+          "damage": "170",
+          "convertedEnergyCost": 4
+        }
+      ],
+      "weaknesses": [{ "type": "Fighting", "value": "×2" }]
+    },
+    {
+      "id": "swsh2-67",
+      "name": "Boltund V",
+      "nationalPokedexNumber": 836,
+      "imageUrl": "https://images.pokemontcg.io/swsh2/67.png",
+      "imageUrlHiRes": "https://images.pokemontcg.io/swsh2/67_hires.png",
+      "types": ["Lightning"],
+      "supertype": "Pokémon",
+      "subtype": "V",
+      "hp": "200",
+      "retreatCost": ["Colorless", "Colorless"],
+      "convertedRetreatCost": 2,
+      "number": "67",
+      "artist": "aky CG Works",
+      "rarity": "Rare Holo",
+      "series": "Sword & Shield",
+      "set": "Rebel Clash",
+      "setCode": "swsh2",
+      "text": [
+        "When your Pokémon V is Knocked Out, your opponent takes 2 Prize cards."
+      ],
+      "attacks": [
+        {
+          "cost": ["Lightning"],
+          "name": "Electrify",
+          "text": "Search your deck for up to 2 Lightning Energy cards and attach them to your Benched Pokémon in any way you like. Then, shuffle your deck.",
+          "damage": "",
+          "convertedEnergyCost": 1
+        },
+        {
+          "cost": ["Lightning", "Colorless"],
+          "name": "Bolt Storm",
+          "text": "This attack does 30 more damage for each Lightning Energy attached to all of your Pokémon.",
+          "damage": "10+",
+          "convertedEnergyCost": 2
+        }
+      ],
+      "weaknesses": [{ "type": "Fighting", "value": "×2" }]
+    },
+    {
+      "id": "swsh2-68",
+      "name": "Toxel",
+      "nationalPokedexNumber": 848,
+      "imageUrl": "https://images.pokemontcg.io/swsh2/68.png",
+      "imageUrlHiRes": "https://images.pokemontcg.io/swsh2/68_hires.png",
+      "types": ["Lightning"],
+      "supertype": "Pokémon",
+      "subtype": "Basic",
+      "hp": "70",
+      "retreatCost": ["Colorless", "Colorless"],
+      "convertedRetreatCost": 2,
+      "number": "68",
+      "artist": "nagimiso",
+      "rarity": "Common",
+      "series": "Sword & Shield",
+      "set": "Rebel Clash",
+      "setCode": "swsh2",
+      "attacks": [
+        {
+          "cost": ["Lightning"],
+          "name": "Tight Jaw",
+          "text": "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.",
+          "damage": "10",
+          "convertedEnergyCost": 1
+        }
+      ],
+      "weaknesses": [{ "type": "Fighting", "value": "×2" }]
+    },
+    {
+      "id": "swsh2-69",
+      "name": "Toxtricity",
+      "nationalPokedexNumber": 849,
+      "imageUrl": "https://images.pokemontcg.io/swsh2/69.png",
+      "imageUrlHiRes": "https://images.pokemontcg.io/swsh2/69_hires.png",
+      "types": ["Lightning"],
+      "supertype": "Pokémon",
+      "subtype": "Stage 1",
+      "evolvesFrom": "Toxel",
+      "hp": "130",
+      "retreatCost": ["Colorless", "Colorless"],
+      "convertedRetreatCost": 2,
+      "number": "69",
+      "artist": "TOKIYA",
+      "rarity": "Rare",
+      "series": "Sword & Shield",
+      "set": "Rebel Clash",
+      "setCode": "swsh2",
+      "attacks": [
+        {
+          "cost": ["Lightning"],
+          "name": "Poison Shout",
+          "text": "This attack does 20 damage to each of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.) Your opponent's Active Pokémon is now Poisoned.",
+          "damage": "",
+          "convertedEnergyCost": 1
+        },
+        {
+          "cost": ["Lightning", "Colorless", "Colorless"],
+          "name": "Hammer In",
+          "text": "",
+          "damage": "90",
+          "convertedEnergyCost": 3
+        }
+      ],
+      "weaknesses": [{ "type": "Fighting", "value": "×2" }]
+    },
+    {
+      "id": "swsh2-70",
+      "name": "Toxtricity V",
+      "nationalPokedexNumber": 849,
+      "imageUrl": "https://images.pokemontcg.io/swsh2/70.png",
+      "imageUrlHiRes": "https://images.pokemontcg.io/swsh2/70_hires.png",
+      "types": ["Lightning"],
+      "supertype": "Pokémon",
+      "subtype": "V",
+      "hp": "210",
+      "retreatCost": ["Colorless", "Colorless"],
+      "convertedRetreatCost": 2,
+      "number": "70",
+      "artist": "5ban Graphics",
+      "rarity": "Rare Holo",
+      "series": "Sword & Shield",
+      "set": "Rebel Clash",
+      "setCode": "swsh2",
+      "text": [
+        "When your Pokémon V is Knocked Out, your opponent takes 2 Prize cards."
+      ],
+      "attacks": [
+        {
+          "cost": ["Lightning"],
+          "name": "Poison Jab",
+          "text": "Your opponent's Active Pokémon is now Poisoned.",
+          "damage": "20",
+          "convertedEnergyCost": 1
+        },
+        {
+          "cost": ["Lightning", "Lightning", "Colorless"],
+          "name": "Electric Riot",
+          "text": "If your opponent's Active Pokémon is Poisoned, this attack does 90 more damage.",
+          "damage": "90+",
+          "convertedEnergyCost": 3
+        }
+      ],
+      "weaknesses": [{ "type": "Fighting", "value": "×2" }]
+    },
+    {
+      "id": "swsh2-71",
+      "name": "Toxtricity VMAX",
+      "nationalPokedexNumber": 849,
+      "imageUrl": "https://images.pokemontcg.io/swsh2/71.png",
+      "imageUrlHiRes": "https://images.pokemontcg.io/swsh2/71_hires.png",
+      "types": ["Lightning"],
+      "supertype": "Pokémon",
+      "subtype": "VMAX",
+      "evolvesFrom": "Toxtricity V",
+      "hp": "320",
+      "retreatCost": ["Colorless", "Colorless"],
+      "convertedRetreatCost": 2,
+      "number": "71",
+      "artist": "5ban Graphics",
+      "rarity": "Rare Holo",
+      "series": "Sword & Shield",
+      "set": "Rebel Clash",
+      "setCode": "swsh2",
+      "text": [
+        "When your Pokémon VMAX is Knocked Out, your opponent takes 3 Prize cards."
+      ],
+      "attacks": [
+        {
+          "cost": ["Lightning", "Lightning", "Colorless"],
+          "name": "G-Max Riot",
+          "text": "If your opponent's Active Pokémon is Poisoned, this attack does 80 more damage.",
+          "damage": "160+",
+          "convertedEnergyCost": 3
+        }
+      ],
+      "weaknesses": [{ "type": "Fighting", "value": "×2" }]
+    },
+    {
+      "id": "swsh2-72",
+      "name": "Pincurchin V",
+      "nationalPokedexNumber": 871,
+      "imageUrl": "https://images.pokemontcg.io/swsh2/72.png",
+      "imageUrlHiRes": "https://images.pokemontcg.io/swsh2/72_hires.png",
+      "types": ["Lightning"],
+      "supertype": "Pokémon",
+      "subtype": "V",
+      "ability": {
+        "name": "Counterattack Kerzap",
+        "text": "If this Pokémon is in the Active Spot and is damaged by an opponent's attack (even if it is Knocked Out), flip 3 coins. For each heads, put 3 damage counters on the Attacking Pokémon.",
+        "type": "Ability"
+      },
+      "hp": "170",
+      "retreatCost": ["Colorless", "Colorless"],
+      "convertedRetreatCost": 2,
+      "number": "72",
+      "artist": "PLANETA Igarashi",
+      "rarity": "Rare Holo",
+      "series": "Sword & Shield",
+      "set": "Rebel Clash",
+      "setCode": "swsh2",
+      "text": [
+        "When your Pokémon V is Knocked Out, your opponent takes 2 Prize cards."
+      ],
+      "attacks": [
+        {
+          "cost": ["Lightning", "Lightning", "Colorless"],
+          "name": "Sparking Strike",
+          "text": "",
+          "damage": "120",
+          "convertedEnergyCost": 3
+        }
+      ],
+      "weaknesses": [{ "type": "Fighting", "value": "×2" }]
+    },
+    {
+      "id": "swsh2-73",
+      "name": "Morpeko",
+      "nationalPokedexNumber": 877,
+      "imageUrl": "https://images.pokemontcg.io/swsh2/73.png",
+      "imageUrlHiRes": "https://images.pokemontcg.io/swsh2/73_hires.png",
+      "types": ["Lightning"],
+      "supertype": "Pokémon",
+      "subtype": "Basic",
+      "hp": "80",
+      "retreatCost": ["Colorless"],
+      "convertedRetreatCost": 1,
+      "number": "73",
+      "artist": "Kouki Saitou",
+      "rarity": "Uncommon",
+      "series": "Sword & Shield",
+      "set": "Rebel Clash",
+      "setCode": "swsh2",
+      "attacks": [
+        {
+          "cost": ["Colorless"],
+          "name": "Torment",
+          "text": "Choose 1 of your opponent's Active Pokémon's attacks. During your opponent's next turn, that Pokémon can't use that attack.",
+          "damage": "20",
+          "convertedEnergyCost": 1
+        },
+        {
+          "cost": ["Lightning", "Colorless"],
+          "name": "Spark",
+          "text": "This attack also does 20 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+          "damage": "50",
+          "convertedEnergyCost": 2
+        }
+      ],
+      "weaknesses": [{ "type": "Fighting", "value": "×2" }]
+    },
+    {
+      "id": "swsh2-74",
+      "name": "Clefairy",
+      "nationalPokedexNumber": 35,
+      "imageUrl": "https://images.pokemontcg.io/swsh2/74.png",
+      "imageUrlHiRes": "https://images.pokemontcg.io/swsh2/74_hires.png",
+      "types": ["Psychic"],
+      "supertype": "Pokémon",
+      "subtype": "Basic",
+      "hp": "60",
+      "retreatCost": ["Colorless"],
+      "convertedRetreatCost": 1,
+      "number": "74",
+      "artist": "sowsow",
+      "rarity": "Common",
+      "series": "Sword & Shield",
+      "set": "Rebel Clash",
+      "setCode": "swsh2",
+      "attacks": [
+        {
+          "cost": ["Colorless"],
+          "name": "Shining Fingers",
+          "text": "Your opponent's Active Pokémon is now Asleep.",
+          "damage": "",
+          "convertedEnergyCost": 1
+        },
+        {
+          "cost": ["Psychic"],
+          "name": "Magical Shot",
+          "text": "",
+          "damage": "10",
+          "convertedEnergyCost": 1
+        }
+      ],
+      "weaknesses": [{ "type": "Metal", "value": "×2" }]
+    },
+    {
+      "id": "swsh2-75",
+      "name": "Clefable",
+      "nationalPokedexNumber": 36,
+      "imageUrl": "https://images.pokemontcg.io/swsh2/75.png",
+      "imageUrlHiRes": "https://images.pokemontcg.io/swsh2/75_hires.png",
+      "types": ["Psychic"],
+      "supertype": "Pokémon",
+      "subtype": "Stage 1",
+      "evolvesFrom": "Clefairy",
+      "ability": {
+        "name": "Prankish",
+        "text": "When you play this Pokémon from your hand to evolve 1 of your Pokémon during your turn, you may put an Energy attached to your opponent's Active Pokémon on top of their deck.",
+        "type": "Ability"
+      },
+      "hp": "110",
+      "retreatCost": ["Colorless", "Colorless"],
+      "convertedRetreatCost": 2,
+      "number": "75",
+      "artist": "miki kudo",
+      "rarity": "Rare Holo",
+      "series": "Sword & Shield",
+      "set": "Rebel Clash",
+      "setCode": "swsh2",
+      "attacks": [
+        {
+          "cost": ["Psychic", "Colorless"],
+          "name": "Moon Kick",
+          "text": "",
+          "damage": "60",
+          "convertedEnergyCost": 2
+        }
+      ],
+      "weaknesses": [{ "type": "Metal", "value": "×2" }]
+    },
+    {
+      "id": "swsh2-76",
+      "name": "Natu",
+      "nationalPokedexNumber": 177,
+      "imageUrl": "https://images.pokemontcg.io/swsh2/76.png",
+      "imageUrlHiRes": "https://images.pokemontcg.io/swsh2/76_hires.png",
+      "types": ["Psychic"],
+      "supertype": "Pokémon",
+      "subtype": "Basic",
+      "hp": "60",
+      "retreatCost": ["Colorless"],
+      "convertedRetreatCost": 1,
+      "number": "76",
+      "artist": "Naoyo Kimura",
+      "rarity": "Common",
+      "series": "Sword & Shield",
+      "set": "Rebel Clash",
+      "setCode": "swsh2",
+      "attacks": [
+        {
+          "cost": ["Colorless"],
+          "name": "Me First",
+          "text": "Draw a card.",
+          "damage": "",
+          "convertedEnergyCost": 1
+        }
+      ],
+      "resistances": [{ "type": "Fighting", "value": "-30" }],
+      "weaknesses": [{ "type": "Darkness", "value": "×2" }]
+    },
+    {
+      "id": "swsh2-77",
+      "name": "Xatu",
+      "nationalPokedexNumber": 178,
+      "imageUrl": "https://images.pokemontcg.io/swsh2/77.png",
+      "imageUrlHiRes": "https://images.pokemontcg.io/swsh2/77_hires.png",
+      "types": ["Psychic"],
+      "supertype": "Pokémon",
+      "subtype": "Stage 1",
+      "evolvesFrom": "Natu",
+      "hp": "120",
+      "retreatCost": ["Colorless"],
+      "convertedRetreatCost": 1,
+      "number": "77",
+      "artist": "so-taro",
+      "rarity": "Uncommon",
+      "series": "Sword & Shield",
+      "set": "Rebel Clash",
+      "setCode": "swsh2",
+      "attacks": [
+        {
+          "cost": ["Colorless"],
+          "name": "Energy Warp",
+          "text": "Move an Energy from 1 of your opponent's Benched Pokémon to their Active Pokémon.",
+          "damage": "",
+          "convertedEnergyCost": 1
+        },
+        {
+          "cost": ["Psychic"],
+          "name": "Psychic",
+          "text": "This attack does 30 more damage for each Energy attached to your opponent's Active Pokémon.",
+          "damage": "10+",
+          "convertedEnergyCost": 1
+        }
+      ],
+      "resistances": [{ "type": "Fighting", "value": "-30" }],
+      "weaknesses": [{ "type": "Darkness", "value": "×2" }]
+    },
+    {
+      "id": "swsh2-78",
+      "name": "Galarian Corsola",
+      "nationalPokedexNumber": 222,
+      "imageUrl": "https://images.pokemontcg.io/swsh2/78.png",
+      "imageUrlHiRes": "https://images.pokemontcg.io/swsh2/78_hires.png",
+      "types": ["Psychic"],
+      "supertype": "Pokémon",
+      "subtype": "Basic",
+      "hp": "80",
+      "retreatCost": ["Colorless", "Colorless"],
+      "convertedRetreatCost": 2,
+      "number": "78",
+      "artist": "Mitsuhiro Arita",
+      "rarity": "Common",
+      "series": "Sword & Shield",
+      "set": "Rebel Clash",
+      "setCode": "swsh2",
+      "attacks": [
+        {
+          "cost": ["Psychic"],
+          "name": "Cursed Drop",
+          "text": "Put 3 damage counters on your opponent's Pokémon in any way you like.",
+          "damage": "",
+          "convertedEnergyCost": 1
+        }
+      ],
+      "resistances": [{ "type": "Fighting", "value": "-30" }],
+      "weaknesses": [{ "type": "Darkness", "value": "×2" }]
+    },
+    {
+      "id": "swsh2-79",
+      "name": "Galarian Cursola",
+      "nationalPokedexNumber": 864,
+      "imageUrl": "https://images.pokemontcg.io/swsh2/79.png",
+      "imageUrlHiRes": "https://images.pokemontcg.io/swsh2/79_hires.png",
+      "types": ["Psychic"],
+      "supertype": "Pokémon",
+      "subtype": "Stage 1",
+      "evolvesFrom": "Galarian Corsola",
+      "ability": {
+        "name": "Perish Body",
+        "text": "If this Pokémon is in the Active Spot and is Knocked Out by damage from an opponent's attack, flip a coin. If heads, the Attacking Pokémon is Knocked Out.",
+        "type": "Ability"
+      },
+      "hp": "100",
+      "retreatCost": ["Colorless", "Colorless"],
+      "convertedRetreatCost": 2,
+      "number": "79",
+      "artist": "Kagemaru Himeno",
+      "rarity": "Rare Holo",
+      "series": "Sword & Shield",
+      "set": "Rebel Clash",
+      "setCode": "swsh2",
+      "attacks": [
+        {
+          "cost": ["Psychic", "Colorless"],
+          "name": "Corner",
+          "text": "During your opponent's next turn, the Defending Pokémon can't retreat.",
+          "damage": "60",
+          "convertedEnergyCost": 2
+        }
+      ],
+      "resistances": [{ "type": "Fighting", "value": "-30" }],
+      "weaknesses": [{ "type": "Darkness", "value": "×2" }]
+    },
+    {
+      "id": "swsh2-80",
+      "name": "Sigilyph",
+      "nationalPokedexNumber": 561,
+      "imageUrl": "https://images.pokemontcg.io/swsh2/80.png",
+      "imageUrlHiRes": "https://images.pokemontcg.io/swsh2/80_hires.png",
+      "types": ["Psychic"],
+      "supertype": "Pokémon",
+      "subtype": "Basic",
+      "ability": {
+        "name": "Counterattack",
+        "text": "If this Pokémon is in the Active Spot and is damaged by an opponent's attack (even if it is Knocked Out), put 3 damage counters on the Attacking Pokémon.",
+        "type": "Ability"
+      },
+      "hp": "110",
+      "retreatCost": ["Colorless"],
+      "convertedRetreatCost": 1,
+      "number": "80",
+      "artist": "Naoyo Kimura",
+      "rarity": "Rare",
+      "series": "Sword & Shield",
+      "set": "Rebel Clash",
+      "setCode": "swsh2",
+      "attacks": [
+        {
+          "cost": ["Psychic", "Colorless"],
+          "name": "Psychic Assault",
+          "text": "This attack does 10 more damage for each damage counter on your opponent's Active Pokémon.",
+          "damage": "30+",
+          "convertedEnergyCost": 2
+        }
+      ],
+      "resistances": [{ "type": "Fighting", "value": "-30" }],
+      "weaknesses": [{ "type": "Lightning", "value": "×2" }]
+    },
+    {
+      "id": "swsh2-81",
+      "name": "Sandygast",
+      "nationalPokedexNumber": 769,
+      "imageUrl": "https://images.pokemontcg.io/swsh2/81.png",
+      "imageUrlHiRes": "https://images.pokemontcg.io/swsh2/81_hires.png",
+      "types": ["Psychic"],
+      "supertype": "Pokémon",
+      "subtype": "Basic",
+      "hp": "80",
+      "retreatCost": ["Colorless", "Colorless", "Colorless"],
+      "convertedRetreatCost": 3,
+      "number": "81",
+      "artist": "Yuka Morii",
+      "rarity": "Common",
+      "series": "Sword & Shield",
+      "set": "Rebel Clash",
+      "setCode": "swsh2",
+      "attacks": [
+        {
+          "cost": ["Psychic"],
+          "name": "Sneaky Placement",
+          "text": "Put 1 damage counter on 1 of your opponent's Pokémon.",
+          "damage": "",
+          "convertedEnergyCost": 1
+        }
+      ],
+      "resistances": [{ "type": "Fighting", "value": "-30" }],
+      "weaknesses": [{ "type": "Darkness", "value": "×2" }]
+    },
+    {
+      "id": "swsh2-82",
+      "name": "Palossand",
+      "nationalPokedexNumber": 770,
+      "imageUrl": "https://images.pokemontcg.io/swsh2/82.png",
+      "imageUrlHiRes": "https://images.pokemontcg.io/swsh2/82_hires.png",
+      "types": ["Psychic"],
+      "supertype": "Pokémon",
+      "subtype": "Stage 1",
+      "evolvesFrom": "Sandygast",
+      "hp": "140",
+      "retreatCost": ["Colorless", "Colorless", "Colorless", "Colorless"],
+      "convertedRetreatCost": 4,
+      "number": "82",
+      "artist": "Hasuno",
+      "rarity": "Uncommon",
+      "series": "Sword & Shield",
+      "set": "Rebel Clash",
+      "setCode": "swsh2",
+      "attacks": [
+        {
+          "cost": ["Colorless", "Colorless"],
+          "name": "Sand Sink",
+          "text": "Discard the top card of your opponent's deck. If this Pokémon has a Cursed Shovel attached, discard 2 more cards from the top of your opponent's deck.",
+          "damage": "",
+          "convertedEnergyCost": 2
+        },
+        {
+          "cost": ["Psychic", "Colorless", "Colorless"],
+          "name": "Super Absorption",
+          "text": "Heal 30 damage from this Pokémon.",
+          "damage": "90",
+          "convertedEnergyCost": 3
+        }
+      ],
+      "resistances": [{ "type": "Fighting", "value": "-30" }],
+      "weaknesses": [{ "type": "Darkness", "value": "×2" }]
+    },
+    {
+      "id": "swsh2-83",
+      "name": "Hatenna",
+      "nationalPokedexNumber": 856,
+      "imageUrl": "https://images.pokemontcg.io/swsh2/83.png",
+      "imageUrlHiRes": "https://images.pokemontcg.io/swsh2/83_hires.png",
+      "types": ["Psychic"],
+      "supertype": "Pokémon",
+      "subtype": "Basic",
+      "hp": "60",
+      "retreatCost": ["Colorless"],
+      "convertedRetreatCost": 1,
+      "number": "83",
+      "artist": "Mina Nakai",
+      "rarity": "Common",
+      "series": "Sword & Shield",
+      "set": "Rebel Clash",
+      "setCode": "swsh2",
+      "attacks": [
+        {
+          "cost": ["Colorless"],
+          "name": "Find a Friend",
+          "text": "Search your deck for a Pokémon, reveal it, and put it into your hand. Then, shuffle your deck.",
+          "damage": "",
+          "convertedEnergyCost": 1
+        },
+        {
+          "cost": ["Colorless", "Colorless"],
+          "name": "Psyshot",
+          "text": "",
+          "damage": "20",
+          "convertedEnergyCost": 2
+        }
+      ],
+      "resistances": [{ "type": "Fighting", "value": "-30" }],
+      "weaknesses": [{ "type": "Darkness", "value": "×2" }]
+    },
+    {
+      "id": "swsh2-84",
+      "name": "Hattrem",
+      "nationalPokedexNumber": 857,
+      "imageUrl": "https://images.pokemontcg.io/swsh2/84.png",
+      "imageUrlHiRes": "https://images.pokemontcg.io/swsh2/84_hires.png",
+      "types": ["Psychic"],
+      "supertype": "Pokémon",
+      "subtype": "Stage 1",
+      "evolvesFrom": "Hatenna",
+      "hp": "80",
+      "retreatCost": ["Colorless"],
+      "convertedRetreatCost": 1,
+      "number": "84",
+      "artist": "kirisAki",
+      "rarity": "Uncommon",
+      "series": "Sword & Shield",
+      "set": "Rebel Clash",
+      "setCode": "swsh2",
+      "attacks": [
+        {
+          "cost": ["Colorless"],
+          "name": "Calm Mind",
+          "text": "Heal 30 damage from this Pokémon.",
+          "damage": "",
+          "convertedEnergyCost": 1
+        },
+        {
+          "cost": ["Colorless", "Colorless"],
+          "name": "Brutal Swing",
+          "text": "Flip a coin. If heads, this attack does 30 more damage.",
+          "damage": "30+",
+          "convertedEnergyCost": 2
+        }
+      ],
+      "resistances": [{ "type": "Fighting", "value": "-30" }],
+      "weaknesses": [{ "type": "Darkness", "value": "×2" }]
+    },
+    {
+      "id": "swsh2-85",
+      "name": "Hatterene",
+      "nationalPokedexNumber": 858,
+      "imageUrl": "https://images.pokemontcg.io/swsh2/85.png",
+      "imageUrlHiRes": "https://images.pokemontcg.io/swsh2/85_hires.png",
+      "types": ["Psychic"],
+      "supertype": "Pokémon",
+      "subtype": "Stage 2",
+      "evolvesFrom": "Hattrem",
+      "ability": {
+        "name": "Mind Hat",
+        "text": "Once during your turn, you may use this Ability. Each player discards a card from their hand. (Your opponent discards first.)",
+        "type": "Ability"
+      },
+      "hp": "150",
+      "retreatCost": ["Colorless", "Colorless"],
+      "convertedRetreatCost": 2,
+      "number": "85",
+      "artist": "Kagemaru Himeno",
+      "rarity": "Rare Holo",
+      "series": "Sword & Shield",
+      "set": "Rebel Clash",
+      "setCode": "swsh2",
+      "attacks": [
+        {
+          "cost": ["Psychic"],
+          "name": "Dripping Grudge",
+          "text": "Put 1 damage counter on your opponent's Active Pokémon for each Pokémon in your discard pile.",
+          "damage": "",
+          "convertedEnergyCost": 1
+        }
+      ],
+      "resistances": [{ "type": "Fighting", "value": "-30" }],
+      "weaknesses": [{ "type": "Darkness", "value": "×2" }]
+    },
+    {
+      "id": "swsh2-86",
+      "name": "Milcery",
+      "nationalPokedexNumber": 868,
+      "imageUrl": "https://images.pokemontcg.io/swsh2/86.png",
+      "imageUrlHiRes": "https://images.pokemontcg.io/swsh2/86_hires.png",
+      "types": ["Psychic"],
+      "supertype": "Pokémon",
+      "subtype": "Basic",
+      "hp": "50",
+      "retreatCost": ["Colorless"],
+      "convertedRetreatCost": 1,
+      "number": "86",
+      "artist": "Mina Nakai",
+      "rarity": "Common",
+      "series": "Sword & Shield",
+      "set": "Rebel Clash",
+      "setCode": "swsh2",
+      "attacks": [
+        {
+          "cost": ["Colorless"],
+          "name": "Aromatherapy",
+          "text": "Heal 10 damage from each of your Pokémon.",
+          "damage": "",
+          "convertedEnergyCost": 1
+        },
+        {
+          "cost": ["Psychic", "Colorless"],
+          "name": "Tackle",
+          "text": "",
+          "damage": "20",
+          "convertedEnergyCost": 2
+        }
+      ],
+      "weaknesses": [{ "type": "Metal", "value": "×2" }]
+    },
+    {
+      "id": "swsh2-87",
+      "name": "Alcremie",
+      "nationalPokedexNumber": 869,
+      "imageUrl": "https://images.pokemontcg.io/swsh2/87.png",
+      "imageUrlHiRes": "https://images.pokemontcg.io/swsh2/87_hires.png",
+      "types": ["Psychic"],
+      "supertype": "Pokémon",
+      "subtype": "Stage 1",
+      "evolvesFrom": "Milcery",
+      "hp": "110",
+      "retreatCost": ["Colorless"],
+      "convertedRetreatCost": 1,
+      "number": "87",
+      "artist": "Mizue",
+      "rarity": "Rare",
+      "series": "Sword & Shield",
+      "set": "Rebel Clash",
+      "setCode": "swsh2",
+      "attacks": [
+        {
+          "cost": ["Colorless"],
+          "name": "Decorate",
+          "text": "Attach any number of basic Energy cards from your hand to your Pokémon in any way you like.",
+          "damage": "",
+          "convertedEnergyCost": 1
+        },
+        {
+          "cost": ["Psychic", "Colorless"],
+          "name": "Draining Kiss",
+          "text": "Heal 30 damage from this Pokémon.",
+          "damage": "50",
+          "convertedEnergyCost": 2
+        }
+      ],
+      "weaknesses": [{ "type": "Metal", "value": "×2" }]
+    },
+    {
+      "id": "swsh2-88",
+      "name": "Indeedee",
+      "nationalPokedexNumber": 876,
+      "imageUrl": "https://images.pokemontcg.io/swsh2/88.png",
+      "imageUrlHiRes": "https://images.pokemontcg.io/swsh2/88_hires.png",
+      "types": ["Psychic"],
+      "supertype": "Pokémon",
+      "subtype": "Basic",
+      "hp": "100",
+      "retreatCost": ["Colorless"],
+      "convertedRetreatCost": 1,
+      "number": "88",
+      "artist": "Mizue",
+      "rarity": "Uncommon",
+      "series": "Sword & Shield",
+      "set": "Rebel Clash",
+      "setCode": "swsh2",
+      "attacks": [
+        {
+          "cost": ["Colorless"],
+          "name": "Replenish Time",
+          "text": "Heal 30 damage from each of your Pokémon.",
+          "damage": "",
+          "convertedEnergyCost": 1
+        },
+        {
+          "cost": ["Psychic", "Colorless"],
+          "name": "Psybeam",
+          "text": "Your opponent's Active Pokémon is now Confused.",
+          "damage": "30",
+          "convertedEnergyCost": 2
+        }
+      ],
+      "resistances": [{ "type": "Fighting", "value": "-30" }],
+      "weaknesses": [{ "type": "Darkness", "value": "×2" }]
+    },
+    {
+      "id": "swsh2-89",
+      "name": "Dreepy",
+      "nationalPokedexNumber": 885,
+      "imageUrl": "https://images.pokemontcg.io/swsh2/89.png",
+      "imageUrlHiRes": "https://images.pokemontcg.io/swsh2/89_hires.png",
+      "types": ["Psychic"],
+      "supertype": "Pokémon",
+      "subtype": "Basic",
+      "hp": "60",
+      "retreatCost": ["Colorless"],
+      "convertedRetreatCost": 1,
+      "number": "89",
+      "artist": "Akira Komayama",
+      "rarity": "Common",
+      "series": "Sword & Shield",
+      "set": "Rebel Clash",
+      "setCode": "swsh2",
+      "attacks": [
+        {
+          "cost": ["Psychic"],
+          "name": "Quick Attack",
+          "text": "Flip a coin. If heads, this attack does 10 more damage.",
+          "damage": "10+",
+          "convertedEnergyCost": 1
+        }
+      ],
+      "resistances": [{ "type": "Fighting", "value": "-30" }],
+      "weaknesses": [{ "type": "Darkness", "value": "×2" }]
+    },
+    {
+      "id": "swsh2-90",
+      "name": "Drakloak",
+      "nationalPokedexNumber": 886,
+      "imageUrl": "https://images.pokemontcg.io/swsh2/90.png",
+      "imageUrlHiRes": "https://images.pokemontcg.io/swsh2/90_hires.png",
+      "types": ["Psychic"],
+      "supertype": "Pokémon",
+      "subtype": "Stage 1",
+      "evolvesFrom": "Dreepy",
+      "hp": "90",
+      "retreatCost": ["Colorless"],
+      "convertedRetreatCost": 1,
+      "number": "90",
+      "artist": "Kouki Saitou",
+      "rarity": "Uncommon",
+      "series": "Sword & Shield",
+      "set": "Rebel Clash",
+      "setCode": "swsh2",
+      "attacks": [
+        {
+          "cost": ["Colorless"],
+          "name": "Summon",
+          "text": "Search your deck for a Dreepy and put it onto your Bench. Then, shuffle your deck.",
+          "damage": "",
+          "convertedEnergyCost": 1
+        },
+        {
+          "cost": ["Psychic", "Psychic"],
+          "name": "Bite",
+          "text": "",
+          "damage": "40",
+          "convertedEnergyCost": 2
+        }
+      ],
+      "resistances": [{ "type": "Fighting", "value": "-30" }],
+      "weaknesses": [{ "type": "Darkness", "value": "×2" }]
+    },
+    {
+      "id": "swsh2-91",
+      "name": "Dragapult",
+      "nationalPokedexNumber": 887,
+      "imageUrl": "https://images.pokemontcg.io/swsh2/91.png",
+      "imageUrlHiRes": "https://images.pokemontcg.io/swsh2/91_hires.png",
+      "types": ["Psychic"],
+      "supertype": "Pokémon",
+      "subtype": "Stage 2",
+      "evolvesFrom": "Drakloak",
+      "ability": {
+        "name": "Infiltrator",
+        "text": "If any damage is done to this Pokémon by attacks, flip a coin. If heads, prevent that damage.",
+        "type": "Ability"
+      },
+      "hp": "150",
+      "number": "91",
+      "artist": "Shin Nagasawa",
+      "rarity": "Rare Holo",
+      "series": "Sword & Shield",
+      "set": "Rebel Clash",
+      "setCode": "swsh2",
+      "attacks": [
+        {
+          "cost": ["Psychic", "Psychic"],
+          "name": "Phantom Force",
+          "text": "Put 3 damage counters on your opponent's Benched Pokémon in any way you like.",
+          "damage": "120",
+          "convertedEnergyCost": 2
+        }
+      ],
+      "resistances": [{ "type": "Fighting", "value": "-30" }],
+      "weaknesses": [{ "type": "Darkness", "value": "×2" }]
+    },
+    {
+      "id": "swsh2-92",
+      "name": "Dragapult V",
+      "nationalPokedexNumber": 887,
+      "imageUrl": "https://images.pokemontcg.io/swsh2/92.png",
+      "imageUrlHiRes": "https://images.pokemontcg.io/swsh2/92_hires.png",
+      "types": ["Psychic"],
+      "supertype": "Pokémon",
+      "subtype": "V",
+      "hp": "210",
+      "retreatCost": ["Colorless"],
+      "convertedRetreatCost": 1,
+      "number": "92",
+      "artist": "aky CG Works",
+      "rarity": "Rare Holo",
+      "series": "Sword & Shield",
+      "set": "Rebel Clash",
+      "setCode": "swsh2",
+      "text": [
+        "When your Pokémon V is Knocked Out, your opponent takes 2 Prize cards."
+      ],
+      "attacks": [
+        {
+          "cost": ["Psychic"],
+          "name": "Bite",
+          "text": "",
+          "damage": "30",
+          "convertedEnergyCost": 1
+        },
+        {
+          "cost": ["Psychic", "Psychic"],
+          "name": "Jet Assault",
+          "text": "If this Pokémon moved from your Bench to the Active Spot this turn, this attack does 80 more damage.",
+          "damage": "60+",
+          "convertedEnergyCost": 2
+        }
+      ],
+      "resistances": [{ "type": "Fighting", "value": "-30" }],
+      "weaknesses": [{ "type": "Darkness", "value": "×2" }]
+    },
+    {
+      "id": "swsh2-93",
+      "name": "Dragapult VMAX",
+      "nationalPokedexNumber": 887,
+      "imageUrl": "https://images.pokemontcg.io/swsh2/93.png",
+      "imageUrlHiRes": "https://images.pokemontcg.io/swsh2/93_hires.png",
+      "types": ["Psychic"],
+      "supertype": "Pokémon",
+      "subtype": "VMAX",
+      "evolvesFrom": "Dragapult V",
+      "hp": "320",
+      "retreatCost": ["Colorless"],
+      "convertedRetreatCost": 1,
+      "number": "93",
+      "artist": "aky CG Works",
+      "rarity": "Rare Holo",
+      "series": "Sword & Shield",
+      "set": "Rebel Clash",
+      "setCode": "swsh2",
+      "text": [
+        "When your Pokémon VMAX is Knocked Out, your opponent takes 3 Prize cards."
+      ],
+      "attacks": [
+        {
+          "cost": ["Psychic"],
+          "name": "Shred",
+          "text": "This attack's damage isn't affected by any effects on your opponent's Active Pokémon.",
+          "damage": "60",
+          "convertedEnergyCost": 1
+        },
+        {
+          "cost": ["Psychic", "Psychic"],
+          "name": "Max Phantom",
+          "text": "Put 5 damage counters on your opponent's Benched Pokémon in any way you like.",
+          "damage": "130",
+          "convertedEnergyCost": 2
+        }
+      ],
+      "resistances": [{ "type": "Fighting", "value": "-30" }],
+      "weaknesses": [{ "type": "Darkness", "value": "×2" }]
+    },
+    {
+      "id": "swsh2-94",
+      "name": "Galarian Farfetch'd",
+      "nationalPokedexNumber": 83,
+      "imageUrl": "https://images.pokemontcg.io/swsh2/94.png",
+      "imageUrlHiRes": "https://images.pokemontcg.io/swsh2/94_hires.png",
+      "types": ["Fighting"],
+      "supertype": "Pokémon",
+      "subtype": "Basic",
+      "hp": "80",
+      "retreatCost": ["Colorless"],
+      "convertedRetreatCost": 1,
+      "number": "94",
+      "artist": "Akira Komayama",
+      "rarity": "Common",
+      "series": "Sword & Shield",
+      "set": "Rebel Clash",
+      "setCode": "swsh2",
+      "attacks": [
+        {
+          "cost": ["Fighting"],
+          "name": "Rock Smash",
+          "text": "Flip a coin. If heads, this attack does 30 more damage.",
+          "damage": "10+",
+          "convertedEnergyCost": 1
+        },
+        {
+          "cost": ["Colorless", "Colorless"],
+          "name": "Pierce",
+          "text": "",
+          "damage": "30",
+          "convertedEnergyCost": 2
+        }
+      ],
+      "weaknesses": [{ "type": "Psychic", "value": "×2" }]
+    },
+    {
+      "id": "swsh2-95",
+      "name": "Galarian Sirfetch'd",
+      "nationalPokedexNumber": 865,
+      "imageUrl": "https://images.pokemontcg.io/swsh2/95.png",
+      "imageUrlHiRes": "https://images.pokemontcg.io/swsh2/95_hires.png",
+      "types": ["Fighting"],
+      "supertype": "Pokémon",
+      "subtype": "Stage 1",
+      "evolvesFrom": "Galarian Farfetch'd",
+      "hp": "130",
+      "retreatCost": ["Colorless", "Colorless"],
+      "convertedRetreatCost": 2,
+      "number": "95",
+      "artist": "You Iribi",
+      "rarity": "Rare Holo",
+      "series": "Sword & Shield",
+      "set": "Rebel Clash",
+      "setCode": "swsh2",
+      "attacks": [
+        {
+          "cost": ["Fighting"],
+          "name": "Pierce",
+          "text": "",
+          "damage": "40",
+          "convertedEnergyCost": 1
+        },
+        {
+          "cost": ["Fighting", "Colorless", "Colorless"],
+          "name": "Meteor Assault",
+          "text": "This Pokémon can't use Meteor Assault again until it leaves the Active Spot.",
+          "damage": "180",
+          "convertedEnergyCost": 3
+        }
+      ],
+      "weaknesses": [{ "type": "Psychic", "value": "×2" }]
+    },
+    {
+      "id": "swsh2-96",
+      "name": "Nosepass",
+      "nationalPokedexNumber": 299,
+      "imageUrl": "https://images.pokemontcg.io/swsh2/96.png",
+      "imageUrlHiRes": "https://images.pokemontcg.io/swsh2/96_hires.png",
+      "types": ["Fighting"],
+      "supertype": "Pokémon",
+      "subtype": "Basic",
+      "hp": "80",
+      "retreatCost": ["Colorless", "Colorless", "Colorless"],
+      "convertedRetreatCost": 3,
+      "number": "96",
+      "artist": "Miki Tanaka",
+      "rarity": "Common",
+      "series": "Sword & Shield",
+      "set": "Rebel Clash",
+      "setCode": "swsh2",
+      "attacks": [
+        {
+          "cost": ["Colorless"],
+          "name": "Tackle",
+          "text": "",
+          "damage": "10",
+          "convertedEnergyCost": 1
+        },
+        {
+          "cost": ["Colorless", "Colorless", "Colorless"],
+          "name": "Rolling Tackle",
+          "text": "",
+          "damage": "50",
+          "convertedEnergyCost": 3
+        }
+      ],
+      "weaknesses": [{ "type": "Grass", "value": "×2" }]
+    },
+    {
+      "id": "swsh2-97",
+      "name": "Meditite",
+      "nationalPokedexNumber": 307,
+      "imageUrl": "https://images.pokemontcg.io/swsh2/97.png",
+      "imageUrlHiRes": "https://images.pokemontcg.io/swsh2/97_hires.png",
+      "types": ["Fighting"],
+      "supertype": "Pokémon",
+      "subtype": "Basic",
+      "hp": "70",
+      "retreatCost": ["Colorless"],
+      "convertedRetreatCost": 1,
+      "number": "97",
+      "artist": "Yukiko Baba",
+      "rarity": "Common",
+      "series": "Sword & Shield",
+      "set": "Rebel Clash",
+      "setCode": "swsh2",
+      "attacks": [
+        {
+          "cost": ["Colorless"],
+          "name": "Yoga Shock",
+          "text": "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.",
+          "damage": "10",
+          "convertedEnergyCost": 1
+        }
+      ],
+      "weaknesses": [{ "type": "Psychic", "value": "×2" }]
+    },
+    {
+      "id": "swsh2-98",
+      "name": "Medicham",
+      "nationalPokedexNumber": 308,
+      "imageUrl": "https://images.pokemontcg.io/swsh2/98.png",
+      "imageUrlHiRes": "https://images.pokemontcg.io/swsh2/98_hires.png",
+      "types": ["Fighting"],
+      "supertype": "Pokémon",
+      "subtype": "Stage 1",
+      "evolvesFrom": "Meditite",
+      "hp": "110",
+      "retreatCost": ["Colorless"],
+      "convertedRetreatCost": 1,
+      "number": "98",
+      "artist": "Suwama Chiaki",
+      "rarity": "Uncommon",
+      "series": "Sword & Shield",
+      "set": "Rebel Clash",
+      "setCode": "swsh2",
+      "attacks": [
+        {
+          "cost": ["Fighting"],
+          "name": "Yoga Kick",
+          "text": "This attack's damage isn't affected by Weakness or Resistance.",
+          "damage": "40",
+          "convertedEnergyCost": 1
+        },
+        {
+          "cost": ["Colorless", "Colorless", "Colorless"],
+          "name": "Psychic",
+          "text": "This attack does 20 more damage for each Energy attached to your opponent's Active Pokémon.",
+          "damage": "60+",
+          "convertedEnergyCost": 3
+        }
+      ],
+      "weaknesses": [{ "type": "Psychic", "value": "×2" }]
+    },
+    {
+      "id": "swsh2-99",
+      "name": "Barboach",
+      "nationalPokedexNumber": 339,
+      "imageUrl": "https://images.pokemontcg.io/swsh2/99.png",
+      "imageUrlHiRes": "https://images.pokemontcg.io/swsh2/99_hires.png",
+      "types": ["Fighting"],
+      "supertype": "Pokémon",
+      "subtype": "Basic",
+      "hp": "70",
+      "retreatCost": ["Colorless", "Colorless"],
+      "convertedRetreatCost": 2,
+      "number": "99",
+      "artist": "Atsuko Nishida",
+      "rarity": "Common",
+      "series": "Sword & Shield",
+      "set": "Rebel Clash",
+      "setCode": "swsh2",
+      "attacks": [
+        {
+          "cost": ["Fighting"],
+          "name": "Razor Fin",
+          "text": "",
+          "damage": "10",
+          "convertedEnergyCost": 1
+        }
+      ],
+      "weaknesses": [{ "type": "Grass", "value": "×2" }]
+    },
+    {
+      "id": "swsh2-100",
+      "name": "Whiscash",
+      "nationalPokedexNumber": 340,
+      "imageUrl": "https://images.pokemontcg.io/swsh2/100.png",
+      "imageUrlHiRes": "https://images.pokemontcg.io/swsh2/100_hires.png",
+      "types": ["Fighting"],
+      "supertype": "Pokémon",
+      "subtype": "Stage 1",
+      "evolvesFrom": "Barboach",
+      "ability": {
+        "name": "Submerge",
+        "text": "As long as this Pokémon is on your Bench, prevent all damage done to this Pokémon by attacks (both yours and your opponent's).",
+        "type": "Ability"
+      },
+      "hp": "140",
+      "retreatCost": ["Colorless", "Colorless", "Colorless"],
+      "convertedRetreatCost": 3,
+      "number": "100",
+      "artist": "kawayoo",
+      "rarity": "Rare",
+      "series": "Sword & Shield",
+      "set": "Rebel Clash",
+      "setCode": "swsh2",
+      "attacks": [
+        {
+          "cost": ["Fighting", "Fighting"],
+          "name": "Earthquake",
+          "text": "This attack also does 20 damage to each of your Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+          "damage": "140",
+          "convertedEnergyCost": 2
+        }
+      ],
+      "weaknesses": [{ "type": "Grass", "value": "×2" }]
+    }
+  ]
+}

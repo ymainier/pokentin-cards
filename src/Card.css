@@ -1,0 +1,377 @@
+@import url("https://fonts.googleapis.com/css?family=Hind&display=swap");
+
+:root {
+  --color-ui: #e7e7e7;
+  --color-ability: #a42e1f;
+  --color-card-border: #fee264;
+
+  /* types */
+  --color-grass: #93ca5b;
+  --color-fire: #e64f4a;
+  --color-water: #4bb5ea;
+  --color-lightning: #fcd333;
+  --color-fighting: #e4552d;
+  --color-psychic: #cd8cbb;
+  --color-colorless: #f0edeb;
+  --color-darkness: #4d636c;
+  --color-metal: #9c9991;
+  --color-dragon: #a9a95f;
+  --color-fairy: #e66b9c;
+}
+
+.both {
+  display: flex;
+}
+
+.card-image {
+  width: 368px;
+  height: 512px;
+}
+
+.card {
+  display: flex;
+  width: 368px;
+  height: 512px;
+  margin-left: -368px;
+  opacity: 0.5;
+  background-color: var(--color-card-border);
+  border-radius: 16px;
+  font-family: Hind, sans-serif;
+}
+
+.card * {
+  box-sizing: border-box;
+}
+
+.card__container {
+  flex-grow: 1;
+  margin: 14px;
+  border-radius: 6px;
+  border: 1px solid var(--color-ui);
+  background-color: var(--color-ui);
+}
+
+.grass .card__container {
+  background-color: var(--color-grass);
+}
+.fire .card__container {
+  background-color: var(--color-fire);
+}
+.water .card__container {
+  background-color: var(--color-water);
+}
+.lightning .card__container {
+  background-color: var(--color-lightning);
+}
+.fighting .card__container {
+  background-color: var(--color-fighting);
+}
+.psychic .card__container {
+  background-color: var(--color-psychic);
+}
+.colorless .card__container {
+  background-color: var(--color-colorless);
+}
+.darkness .card__container {
+  background-color: var(--color-darkness);
+}
+.metal .card__container {
+  background-color: var(--color-metal);
+}
+.dragon .card__container {
+  background-color: var(--color-dragon);
+}
+.fairy .card__container {
+  background-color: var(--color-fairy);
+}
+
+
+.grass .card__container {
+  background-color: ;
+  border-color: ;
+}
+
+.card__header {
+  display: flex;
+  height: 32px;
+  font-weight: bold;
+}
+
+.card__subtype {
+  flex-grow: 0;
+  min-width: 50px;
+}
+
+.card__subtype--pill {
+  display: inline-block;
+  margin-top: 5px;
+  margin-left: -5px;
+  padding: 0 4px;
+  min-width: 52px;
+  height: 16px;
+  line-height: 16px;
+  background-color: var(--color-ui);
+  border-radius: 12px 4px;
+  font-size: 10px;
+  font-style: italic;
+  text-transform: uppercase;
+  text-align: center;
+  /* TODO find a proper gradient, font-family and border/shadow */
+}
+
+.card__name {
+  flex-grow: 1;
+  padding: 7px 5px;
+  line-height: 22px;
+  font-size: 22px;
+}
+
+.card__hp {
+  flex-grow: 0;
+  width: 50px;
+  text-align: right;
+}
+
+.card__hp--text {
+  font-size: 10px;
+}
+
+.card__hp--value {
+  font-size: 25px;
+}
+
+.card__types {
+  flex-grow: 0;
+  width: 32px;
+}
+
+.card__type {
+  margin: 2px;
+  width: 28px;
+  height: 28px;
+  background-color: black;
+  border-radius: 50%;
+  border: 2px solid #fff;
+}
+
+.card__type--colorless {
+  background-image: url(./assets/types/colorless.png);
+  background-size: cover;
+}
+.card__type--darkness {
+  background-image: url(./assets/types/darkness.png);
+  background-size: cover;
+}
+.card__type--dragon {
+  background-image: url(./assets/types/dragon.png);
+  background-size: cover;
+}
+.card__type--fairy {
+  background-image: url(./assets/types/fairy.png);
+  background-size: cover;
+}
+.card__type--fighting {
+  background-image: url(./assets/types/fighting.png);
+  background-size: cover;
+}
+.card__type--fire {
+  background-image: url(./assets/types/fire.png);
+  background-size: cover;
+}
+.card__type--grass {
+  background-image: url(./assets/types/grass.png);
+  background-size: cover;
+}
+.card__type--lightning {
+  background-image: url(./assets/types/lightning.png);
+  background-size: cover;
+}
+.card__type--metal {
+  background-image: url(./assets/types/metal.png);
+  background-size: cover;
+}
+.card__type--psychic {
+  background-image: url(./assets/types/psychic.png);
+  background-size: cover;
+}
+.card__type--water {
+  background-image: url(./assets/types/water.png);
+  background-size: cover;
+}
+
+
+.card__general--image {
+  background-image: url(https://vignette.wikia.nocookie.net/pokemon/images/7/70/Ash_Heracross.png/revision/latest?cb=20150917062521);
+  background-size: cover;
+  margin: 0 10px;
+  height: 198px;
+  border: 2px solid var(--color-ui);
+}
+
+.card__general--info {
+  background-color: var(--color-ui);
+  margin: -2px 5px;
+  padding: 2px;
+  font-size: 8px;
+  text-align: center;
+  border-radius: 12px 4px;
+}
+
+.card__body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 10px;
+  height: 182px;
+}
+
+.card__body--with-ability {
+  justify-content: flex-start;
+}
+
+.card__ability {
+  margin-top: 15px;
+  margin-bottom: 12px;
+}
+
+.card__ability--header {
+  display: flex;
+  flex-direction: row;
+}
+
+.card__ability--type {
+  margin-top: 3px;
+  margin-left: -5px;
+  margin-right: 5px;
+  padding: 0 4px;
+  width: 94px;
+  line-height: 16px;
+  height: 16px;
+  background-color: var(--color-ability);
+  color: #fff;
+  border-radius: 12px 4px;
+  font-size: 10px;
+  font-weight: bold;
+  font-style: italic;
+  text-align: center;
+}
+
+.card__ability--name {
+  color: var(--color-ability);
+  font-weight: bold;
+}
+
+.card__ability--text {
+  font-size: 12px;
+  line-height: 14px;
+  margin: 0 5px;
+}
+
+.card__attack {
+  margin-bottom: 24px;
+}
+
+.card__attack:last-of-type {
+  margin-bottom: 0;
+}
+
+.card__attack--header {
+  display: flex;
+  height: 24px;
+  flex-direction: row;
+  align-items: center;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.card__attack--cost {
+  width: 94px;
+  height: 24px;
+}
+
+.card__attack--cost-type {
+  background-color: black;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin: -1px 1px 0;
+  border-radius: 50%;
+  border: 1px solid #fff;
+}
+
+.card__attack--name {
+  flex-grow: 1;
+  height: 24px;
+  line-height: 24px;
+}
+
+.card__attack--damage {
+  font-size: 20px;
+  height: 24px;
+  line-height: 24px;
+}
+
+.card__attack--text {
+  font-size: 12px;
+  line-height: 14px;
+  margin: 0 5px;
+}
+
+.card__weakness-resistance-retreat {
+  display: flex;
+  flex-direction: row;
+  margin: 0 -5px;
+  padding: 1px 10px;
+  height: 16px;
+  background-color: var(--color-ui);
+  border-radius: 12px 4px;
+  font-size: 8px;
+  font-weight: bold;
+  line-height: 16px;
+}
+
+.card__weakness-resistance-retreat--weakness {
+  display: flex;
+  width: 94px;
+}
+
+.card__weakness-resistance-retreat--weakness .card__type-small {
+  margin-left: 4px;
+}
+
+.card__weakness--value {
+  margin-left: 4px;
+  font-size: 16px;
+}
+
+.card__weakness-resistance-retreat--resistance {
+  width: 114px;
+}
+
+.card__weakness-resistance-retreat--retreat {
+  display: flex;
+  width: 110px;
+}
+
+.card__type-small {
+  background-color: black;
+  margin-top: 1px;
+  margin-left: 2px;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+}
+
+.card__weakness-resistance-retreat--retreat .card__type-small:first-of-type {
+  margin-left: 14px;
+}
+
+.card__description {
+  padding-top: 4px;
+  padding-left: 148px;
+  padding-right: 4px;
+  max-height: 186px;
+  font-size: 9px;
+  line-height: 12px;
+  text-align: right;
+}
