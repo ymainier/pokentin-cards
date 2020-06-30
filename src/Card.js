@@ -1,21 +1,6 @@
 import React from "react";
-import { cards } from "./data/swsh2.json";
 
 import "./Card.css";
-
-const card = {
-  ...cards[5],
-  category: "Single Horn Pokémon",
-  description:
-    "It roams through forest searching for sweet nectar. Although it boasts fantastic physical strength, it's not that good at flying.",
-  height: "1.50m",
-  weight: "54kg",
-};
-console.log(card);
-
-function CardImage({ src }) {
-  return <img src={src} alt="Heracross" className="card-image" />;
-}
 
 function Type({ name }) {
   return <div className={`card__type card__type--${name.toLowerCase()}`} />;
@@ -61,85 +46,127 @@ function Attack({ cost, name, damage, text }) {
   );
 }
 
-function Card(props) {
-  const ability = props.ability;
-  const weaknesses = props.weaknesses;
-  const firstWeakness = weaknesses && weaknesses.length >= 1 && weaknesses[0];
-  const bodyClassName = ability ? 'card__body card__body--with-ability' : 'card__body';
-  const typeClassName = `card ${props.types[0].toLowerCase()}`;
+function CardHeader({ subtype, name, hp, types }) {
   return (
-    <div className={typeClassName}>
-      <div className="card__container">
-        <header className="card__header">
-          <div className="card__subtype">
-            <span className="card__subtype--pill">{props.subtype}</span>
-          </div>
-          <div className="card__name">{props.name}</div>
-          <div className="card__hp">
-            <span className="card__hp--text">HP</span>
-            <span className="card__hp--value">{props.hp}</span>
-          </div>
-          <div className="card__types">
-            {props.types.map((type) => (
-              <Type key={type} name={type} />
-            ))}
-          </div>
-        </header>
-        <div className="card__general">
-          <div className="card__general--image"></div>
-          <div className="card__general--info">
-            {props.category} height: {props.height} weight: {props.weight}.
-          </div>
-        </div>
-        <div className={bodyClassName}>
-          {props.ability && <Ability {...props.ability} />}
-          {props.attacks &&
-            props.attacks.map((attack, index) => (
-              <Attack key={index} {...attack} />
-            ))}
-        </div>
-        <div className="card__weakness-resistance-retreat">
-          <div className="card__weakness-resistance-retreat--weakness">
-            weakness{" "}
-            {firstWeakness && (
-              <>
-                <div
-                  className={`card__type-small card__type--${firstWeakness.type.toLowerCase()}`}
-                />
-                <div className="card__weakness--value">
-                  {firstWeakness.value}
-                </div>
-              </>
-            )}
-          </div>
-          <div className="card__weakness-resistance-retreat--resistance">
-            resistance
-          </div>
-          <div className="card__weakness-resistance-retreat--retreat">
-            retreat{" "}
-            {props.retreatCost &&
-              props.retreatCost.length &&
-              props.retreatCost.map((cost, index) => {
-                return (
-                  <div
-                    key={index}
-                    className={`card__type-small card__type--${cost.toLowerCase()}`}
-                  />
-                );
-              })}
-          </div>
-        </div>
-        <div className="card__description">{props.description}</div>
+    <header className="card__header">
+      <div className="card__subtype">
+        <span className="card__subtype--pill">{subtype}</span>
+      </div>
+      <div className="card__name">{name}</div>
+      <div className="card__hp">
+        <span className="card__hp--text">HP</span>
+        <span className="card__hp--value">{hp}</span>
+      </div>
+      <div className="card__types">
+        {types.map((type) => (
+          <Type key={type} name={type} />
+        ))}
+      </div>
+    </header>
+  );
+}
+
+function CardGeneral({ category, height, weight }) {
+  return (
+    <div className="card__general">
+      <div className="card__general--image"></div>
+      <div className="card__general--info">
+        {category} height: {height} weight: {weight}.
       </div>
     </div>
   );
 }
 
-export default function Both() {
+function CardBody({ ability, attacks }) {
+  const bodyClassName = ability
+    ? "card__body card__body--with-ability"
+    : "card__body";
   return (
-    <div className="both">
-      <CardImage src={card.imageUrlHiRes} />
-      <Card {...card} />
+    <div className={bodyClassName}>
+      {ability && <Ability {...ability} />}
+      {attacks &&
+        attacks.map((attack, index) => <Attack key={index} {...attack} />)}
+    </div>
+  );
+}
+
+function CardWeaknessResistance({ element, type, className }) {
+  return (
+    <div className="card__footer--item">
+      {type}{" "}
+      {element && (
+        <>
+          <div
+            className={`card__type-small card__type--${element.type.toLowerCase()}`}
+          />
+          <div className="card__footer--value">{element.value}</div>
+        </>
+      )}
+    </div>
+  );
+}
+
+function CardWeaknessResistanceRetreat({
+  weaknesses,
+  resistances,
+  retreatCost,
+}) {
+  const firstWeakness = weaknesses && weaknesses.length >= 1 && weaknesses[0];
+  const firstResistance =
+    resistances && resistances.length >= 1 && resistances[0];
+
+  return (
+    <div className="card__footer">
+      <CardWeaknessResistance
+        type="weakness"
+        element={firstWeakness}
+      />
+      <CardWeaknessResistance
+        type="resistance"
+        element={firstResistance}
+      />
+      <div className="card__footer--item">
+        retreat{" "}
+        {retreatCost &&
+          retreatCost.length > 0 &&
+          retreatCost.map((cost, index) => {
+            return (
+              <div
+                key={index}
+                className={`card__type-small card__type--${cost.toLowerCase()}`}
+              />
+            );
+          })}
+      </div>
+    </div>
+  );
+}
+
+export default function Card(props) {
+  const { types } = props;
+  const typeClassName = `card ${types[0].toLowerCase()}`;
+  return (
+    <div className={typeClassName}>
+      <div className="card__container">
+        <CardHeader
+          subtype={props.subtype}
+          name={props.name}
+          hp={props.hp}
+          types={types}
+        />
+        <CardGeneral
+          category={props.category}
+          height={props.height}
+          weight={props.weight}
+        />
+        <CardBody ability={props.ability} attacks={props.attacks} />
+        <CardWeaknessResistanceRetreat
+          weaknesses={props.weaknesses}
+          resistances={props.resistances}
+          retreatCost={props.retreatCost}
+        />
+        <div className="card__description">{props.description}</div>
+      </div>
     </div>
   );
 }

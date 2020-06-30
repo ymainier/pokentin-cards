@@ -1,0 +1,46 @@
+{
+  "name": "Pokentin",
+  "types": [
+    "Fire"
+  ],
+  "subtype": "Basic",
+  "evolvesFrom": "Lotad",
+  "ability": {
+    "name": "Flying fire",
+    "text": "Fire appears above the opponent's Pokémon and it crashes into it. It burns it and inflicts it 40 damages.",
+    "type": "Ability"
+  },
+  "hp": "90",
+  "retreatCost": [
+    "Colorless"
+  ],
+  "attacks": [
+    {
+      "cost": [
+        "Fire",
+        "Fire",
+        "Fire",
+        "Colorless"
+      ],
+      "name": "Vampire flame",
+      "text": "A flame appears and goes right in the opponent's Pokémon. It steals him 50HP and gives it to himself.",
+      "damage": "50"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Grass",
+      "value": "-20"
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Water",
+      "value": "×2"
+    }
+  ],
+  "category": "Flying Pokeball  Pokémon",
+  "description": "It fly around volcanoes hoping for a tasty treat.",
+  "height": "50cm",
+  "weight": "1kg"
+}

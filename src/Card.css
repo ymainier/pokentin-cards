@@ -1,6 +1,9 @@
 @import url("https://fonts.googleapis.com/css?family=Hind&display=swap");
 
 :root {
+  --color-white: #fff;
+  --color-black: #000;
+
   --color-ui: #e7e7e7;
   --color-ability: #a42e1f;
   --color-card-border: #fee264;
@@ -19,21 +22,10 @@
   --color-fairy: #e66b9c;
 }
 
-.both {
-  display: flex;
-}
-
-.card-image {
-  width: 368px;
-  height: 512px;
-}
-
 .card {
   display: flex;
   width: 368px;
   height: 512px;
-  margin-left: -368px;
-  opacity: 0.5;
   background-color: var(--color-card-border);
   border-radius: 16px;
   font-family: Hind, sans-serif;
@@ -47,7 +39,7 @@
   flex-grow: 1;
   margin: 14px;
   border-radius: 6px;
-  border: 1px solid var(--color-ui);
+  border: 1px solid var(--color-black);
   background-color: var(--color-ui);
 }
 
@@ -85,12 +77,6 @@
   background-color: var(--color-fairy);
 }
 
-
-.grass .card__container {
-  background-color: ;
-  border-color: ;
-}
-
 .card__header {
   display: flex;
   height: 32px;
@@ -111,12 +97,12 @@
   height: 16px;
   line-height: 16px;
   background-color: var(--color-ui);
+  border: 1px solid var(--color-black);
   border-radius: 12px 4px;
   font-size: 10px;
   font-style: italic;
   text-transform: uppercase;
   text-align: center;
-  /* TODO find a proper gradient, font-family and border/shadow */
 }
 
 .card__name {
@@ -151,7 +137,7 @@
   height: 28px;
   background-color: black;
   border-radius: 50%;
-  border: 2px solid #fff;
+  border: 2px solid var(--color-white);
 }
 
 .card__type--colorless {
@@ -199,13 +185,13 @@
   background-size: cover;
 }
 
-
 .card__general--image {
-  background-image: url(https://vignette.wikia.nocookie.net/pokemon/images/7/70/Ash_Heracross.png/revision/latest?cb=20150917062521);
+  background-color: var(--color-white);
+  /* background-image: url(https://vignette.wikia.nocookie.net/pokemon/images/7/70/Ash_Heracross.png/revision/latest?cb=20150917062521); */
   background-size: cover;
   margin: 0 10px;
   height: 198px;
-  border: 2px solid var(--color-ui);
+  border: 1px solid var(--color-black);
 }
 
 .card__general--info {
@@ -214,6 +200,7 @@
   padding: 2px;
   font-size: 8px;
   text-align: center;
+  border: 1px solid var(--color-black);
   border-radius: 12px 4px;
 }
 
@@ -248,7 +235,7 @@
   line-height: 16px;
   height: 16px;
   background-color: var(--color-ability);
-  color: #fff;
+  color: var(--color-white);
   border-radius: 12px 4px;
   font-size: 10px;
   font-weight: bold;
@@ -296,7 +283,7 @@
   height: 20px;
   margin: -1px 1px 0;
   border-radius: 50%;
-  border: 1px solid #fff;
+  border: 1px solid var(--color-white);
 }
 
 .card__attack--name {
@@ -317,53 +304,39 @@
   margin: 0 5px;
 }
 
-.card__weakness-resistance-retreat {
+.card__footer {
   display: flex;
   flex-direction: row;
   margin: 0 -5px;
   padding: 1px 10px;
   height: 16px;
   background-color: var(--color-ui);
+  border: 1px solid var(--color-black);
   border-radius: 12px 4px;
   font-size: 8px;
   font-weight: bold;
-  line-height: 16px;
+  line-height: 12px;
 }
 
-.card__weakness-resistance-retreat--weakness {
+.card__footer--item {
   display: flex;
-  width: 94px;
+  flex-grow: 1;
 }
 
-.card__weakness-resistance-retreat--weakness .card__type-small {
+.card__footer--value {
   margin-left: 4px;
 }
 
-.card__weakness--value {
-  margin-left: 4px;
-  font-size: 16px;
-}
-
-.card__weakness-resistance-retreat--resistance {
-  width: 114px;
-}
-
-.card__weakness-resistance-retreat--retreat {
-  display: flex;
-  width: 110px;
+.card__footer--item .card__type-small {
+  margin-left: 12px;
 }
 
 .card__type-small {
   background-color: black;
-  margin-top: 1px;
   margin-left: 2px;
   width: 12px;
   height: 12px;
   border-radius: 50%;
-}
-
-.card__weakness-resistance-retreat--retreat .card__type-small:first-of-type {
-  margin-left: 14px;
 }
 
 .card__description {
