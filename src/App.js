@@ -1,13 +1,19 @@
-import React from 'react';
-import Card from './Card';
+import React, { useState } from "react";
+import Card from "./Card";
+import Form from "./Form";
 
-import card from "./data/card.json";
+import initialData from "./data/card.json";
 
-import './App.css';
+import "./App.css";
 
 function App() {
+  const [card, setCard] = useState(initialData);
+
   return (
-    <Card {...card} />
+    <div className="app">
+      <Card {...card} />
+      <Form initialData={initialData} onChange={setCard} />
+    </div>
   );
 }
 
