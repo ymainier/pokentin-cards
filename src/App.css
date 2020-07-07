@@ -1,5 +1,11 @@
 .app {
   display: flex;
-  justify-content: space-around;
-  margin-top: 20px;
+  min-width: 908px;
+  min-height: max(100vh, 600px);
+  justify-content: center;
+  align-items: center;
+}
+
+.app .form {
+  margin-left: 40px;
 }

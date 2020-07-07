@@ -1,9 +1,12 @@
 import React, { useEffect, useReducer } from "react";
 
-function TextField({ id, label, value, long, onChange }) {
+import "./Form.css";
+
+function TextField({ id, label, value, long, row, onChange }) {
   const TagName = long ? "textarea" : "input";
+  row = row ? row : 3;
   return (
-    <div className="field">
+    <div className={`field field__${id}`}>
       <label htmlFor={id}>{label}</label>
       <TagName
         id={id}
@@ -11,6 +14,7 @@ function TextField({ id, label, value, long, onChange }) {
         type="text"
         onChange={(e) => onChange(e.target.value)}
         value={value}
+        rows={long ? row : undefined}
       />
     </div>
   );
@@ -39,7 +43,7 @@ function titleize(string) {
 
 function TypeSelect({ id, label, value, onChange }) {
   return (
-    <div className="field">
+    <div className={`field field__${id}`}>
       <label htmlFor={id}>Type</label>
       <select name={id} id={id} value={value} onChange={onChange}>
         {ALL_TYPES.map((type) => (
@@ -123,13 +127,14 @@ export default function Form({ initialData, onChange }) {
   const update = (path) => (value) => dispatch({ type: "UPDATE", path, value });
   const value = get(state);
 
-  const text = (path, long, label) => (
+  const text = (path, long, label, row) => (
     <TextField
-      id={path.join(".")}
+      id={path.join("-")}
       label={label || path.map((v) => titleize(v.toString())).join(" ")}
       value={value(path)}
       onChange={update(path)}
       long={long}
+      row={row}
     />
   );
 
@@ -149,72 +154,82 @@ export default function Form({ initialData, onChange }) {
 
   return (
     <form className="form">
-      {text(["name"])}
-      <TypeSelect
-        id="types"
-        label="Type"
-        value={state.types[0].toLowerCase()}
-        onChange={(e) =>
-          dispatch({ type: "UPDATE_TYPES", value: [e.target.value] })
-        }
-      />
-      {text(["hp"], false, "HP")}
-      {text(["category"])}
-      {text(["height"])}
-      {text(["weight"])}
-      {text(["ability", "name"])}
-      {text(["ability", "text"], true)}
-      <div>
-        <label htmlFor="cost-all">Total cost </label>
-        <select
-          name="cost-all"
-          id="cost-all"
-          value={cost.total}
-          onChange={(e) => {
-            dispatch({
-              type: "UPDATE_ATTACK_COST_ALL",
-              index: 0,
-              value: parseInt(e.target.value),
-            });
-          }}
-        >
-          {Array.from({ length: 5 }, (_, index) => {
-            return (
-              <option key={index} value={index}>
-                {index}
-              </option>
-            );
-          })}
-        </select>
-        <label htmlFor="cost-colorless">inc. normal </label>
-        <select
-          name="cost-colorless"
-          id="cost-colorless"
-          value={cost.colorless}
-          onChange={(e) => {
-            dispatch({
-              type: "UPDATE_ATTACK_COST_COLORLESS",
-              index: 0,
-              value: parseInt(e.target.value),
-            });
-          }}
-        >
-          {Array.from(
-            { length: cost.total === 0 ? 0 : cost.total + 1 },
-            (_, index) => {
+      <div className="group">
+        {text(["name"])}
+        {text(["hp"], false, "HP")}
+        <TypeSelect
+          id="types"
+          label="Type"
+          value={state.types[0].toLowerCase()}
+          onChange={(e) =>
+            dispatch({ type: "UPDATE_TYPES", value: [e.target.value] })
+          }
+        />
+      </div>
+      <div className="group">
+        {text(["category"])}
+        {text(["height"])}
+        {text(["weight"])}
+      </div>
+      <div className="group">
+        {text(["ability", "name"])}
+        {text(["ability", "text"], true)}
+      </div>
+      <div className="group">
+        {text(["attacks", 0, "name"], false, "Attacks Name")}
+        {text(["attacks", 0, "text"], true, "Attacks Text")}
+        <div className="field field__attacks-0-cost">
+          <label htmlFor="cost-all">Cost </label>
+          <select
+            name="cost-all"
+            id="cost-all"
+            value={cost.total}
+            onChange={(e) => {
+              dispatch({
+                type: "UPDATE_ATTACK_COST_ALL",
+                index: 0,
+                value: parseInt(e.target.value),
+              });
+            }}
+          >
+            {Array.from({ length: 5 }, (_, index) => {
               return (
                 <option key={index} value={index}>
                   {index}
                 </option>
               );
-            }
-          )}
-        </select>
+            })}
+          </select>
+          <label htmlFor="cost-colorless">inc. normal </label>
+          <select
+            name="cost-colorless"
+            id="cost-colorless"
+            value={cost.colorless}
+            onChange={(e) => {
+              dispatch({
+                type: "UPDATE_ATTACK_COST_COLORLESS",
+                index: 0,
+                value: parseInt(e.target.value),
+              });
+            }}
+          >
+            {Array.from(
+              { length: cost.total === 0 ? 0 : cost.total + 1 },
+              (_, index) => {
+                return (
+                  <option key={index} value={index}>
+                    {index}
+                  </option>
+                );
+              }
+            )}
+          </select>
+        </div>
+        {text(["attacks", 0, "damage"], false, "Attacks Damage")}
       </div>
-      {text(["attacks", 0, "name"])}
-      {text(["attacks", 0, "damage"])}
-      {text(["attacks", 0, "text"], true)}
-      {text(["description"], true)}
+      <div className="group">
+        {text(["description"], true, "Description", 2)}
+      </div>
     </form>
   );
 }
