@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/pokentin-cards/static/css/main.6cb4b0c3.chunk.css",
-    "main.js": "/pokentin-cards/static/js/main.ce9ae8e9.chunk.js",
-    "main.js.map": "/pokentin-cards/static/js/main.ce9ae8e9.chunk.js.map",
+    "main.css": "/pokentin-cards/static/css/main.0e8e4ce3.chunk.css",
+    "main.js": "/pokentin-cards/static/js/main.7a8f7380.chunk.js",
+    "main.js.map": "/pokentin-cards/static/js/main.7a8f7380.chunk.js.map",
     "runtime-main.js": "/pokentin-cards/static/js/runtime-main.3d8881fa.js",
     "runtime-main.js.map": "/pokentin-cards/static/js/runtime-main.3d8881fa.js.map",
     "static/js/2.9f0b1984.chunk.js": "/pokentin-cards/static/js/2.9f0b1984.chunk.js",
     "static/js/2.9f0b1984.chunk.js.map": "/pokentin-cards/static/js/2.9f0b1984.chunk.js.map",
     "index.html": "/pokentin-cards/index.html",
-    "precache-manifest.2196e16b91d791e92f2b158de81aa89c.js": "/pokentin-cards/precache-manifest.2196e16b91d791e92f2b158de81aa89c.js",
+    "precache-manifest.20cbb31817390b4253bae3273953cdc2.js": "/pokentin-cards/precache-manifest.20cbb31817390b4253bae3273953cdc2.js",
     "service-worker.js": "/pokentin-cards/service-worker.js",
-    "static/css/main.6cb4b0c3.chunk.css.map": "/pokentin-cards/static/css/main.6cb4b0c3.chunk.css.map",
+    "static/css/main.0e8e4ce3.chunk.css.map": "/pokentin-cards/static/css/main.0e8e4ce3.chunk.css.map",
     "static/js/2.9f0b1984.chunk.js.LICENSE.txt": "/pokentin-cards/static/js/2.9f0b1984.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.3d8881fa.js",
     "static/js/2.9f0b1984.chunk.js",
-    "static/css/main.6cb4b0c3.chunk.css",
-    "static/js/main.ce9ae8e9.chunk.js"
+    "static/css/main.0e8e4ce3.chunk.css",
+    "static/js/main.7a8f7380.chunk.js"
   ]
 }

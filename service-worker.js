@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/pokentin-cards/precache-manifest.2196e16b91d791e92f2b158de81aa89c.js"
+  "/pokentin-cards/precache-manifest.20cbb31817390b4253bae3273953cdc2.js"
 );
 
 self.addEventListener('message', (event) => {
