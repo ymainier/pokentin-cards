@@ -331,6 +331,10 @@
   margin-left: 12px;
 }
 
+.card__footer--item .card__type-small:not(:first-of-type) {
+  margin-left: 2px;
+}
+
 .card__type-small {
   background-color: black;
   margin-left: 2px;

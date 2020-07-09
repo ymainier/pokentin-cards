@@ -44,7 +44,7 @@ function titleize(string) {
 function TypeSelect({ id, label, value, onChange }) {
   return (
     <div className={`field field__${id}`}>
-      <label htmlFor={id}>Type</label>
+      <label htmlFor={id}>{label}</label>
       <select name={id} id={id} value={value} onChange={onChange}>
         {ALL_TYPES.map((type) => (
           <option key={type} value={type}>
@@ -79,15 +79,13 @@ const reducer = (state, action) => {
       return newState;
     }
     case "UPDATE_TYPES": {
-      if (action.value.length === 0) return state;
-      const newType = action.value[0];
       const attacks = state.attacks.map((attack) => ({
         ...attack,
         cost: attack.cost.map((type) =>
-          type.toLowerCase() === "colorless" ? "colorless" : newType
+          type.toLowerCase() === "colorless" ? "colorless" : action.value
         ),
       }));
-      return { ...state, types: action.value, attacks };
+      return { ...state, types: [action.value], attacks };
     }
     case "UPDATE_ATTACK_COST_ALL": {
       if (action.index > state.attacks.length) return state;
@@ -114,6 +112,9 @@ const reducer = (state, action) => {
         return newAttack;
       });
       return { ...state, attacks };
+    }
+    case "UPDATE_WEAKNESS": {
+      return { ...state, weaknesses: [{ type: action.value, value: "×2" }] };
     }
     default:
       return state;
@@ -199,7 +200,7 @@ export default function Form({ initialData, onChange }) {
           label="Type"
           value={state.types[0].toLowerCase()}
           onChange={(e) =>
-            dispatch({ type: "UPDATE_TYPES", value: [e.target.value] })
+            dispatch({ type: "UPDATE_TYPES", value: e.target.value })
           }
         />
       </div>
@@ -235,7 +236,59 @@ export default function Form({ initialData, onChange }) {
         />
         {text(["attacks", 0, "damage"], false, "Attacks Damage")}
       </div>
-      <div className="group"></div>
+      <div className="group">
+        <TypeSelect
+          id="weaknesses"
+          label="Weakness"
+          value={state.weaknesses[0].type.toLowerCase()}
+          onChange={(e) =>
+            dispatch({
+              type: "UPDATE",
+              path: ["weaknesses"],
+              value: [{ type: e.target.value, value: "×2" }],
+            })
+          }
+        />
+        <TypeSelect
+          id="resistances"
+          label="Resistance"
+          value={state.resistances[0].type.toLowerCase()}
+          onChange={(e) => {
+            console.log(e.target.value);
+            dispatch({
+              type: "UPDATE",
+              path: ["resistances"],
+              value: [{ type: e.target.value, value: "-20" }],
+            });
+          }}
+        />
+        <div className={`field field__retreatCost`}>
+          <label htmlFor="retreatCost">Retreat cost </label>
+          <select
+            name="retreatCost"
+            id="retreatCost"
+            value={state.retreatCost.length}
+            onChange={(e) =>
+              dispatch({
+                type: "UPDATE",
+                path: ["retreatCost"],
+                value: Array.from(
+                  { length: parseInt(e.target.value) },
+                  () => "colorless"
+                ),
+              })
+            }
+          >
+            {Array.from({ length: 5 }, (_, index) => {
+              return (
+                <option key={index} value={index}>
+                  {index}
+                </option>
+              );
+            })}
+          </select>
+        </div>
+      </div>
       <div className="group">
         {text(["description"], true, "Description", 2)}
       </div>
