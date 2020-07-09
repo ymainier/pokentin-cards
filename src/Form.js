@@ -120,6 +120,43 @@ const reducer = (state, action) => {
   }
 };
 
+function AttackCost({ total, colorless, onTotalChange, onColorlessChange }) {
+  return (
+    <div className="field field__attacks-0-cost">
+      <label htmlFor="cost-all">Cost </label>
+      <select
+        name="cost-all"
+        id="cost-all"
+        value={total}
+        onChange={(e) => onTotalChange(parseInt(e.target.value))}
+      >
+        {Array.from({ length: 5 }, (_, index) => {
+          return (
+            <option key={index} value={index}>
+              {index}
+            </option>
+          );
+        })}
+      </select>
+      <label htmlFor="cost-colorless">inc. normal </label>
+      <select
+        name="cost-colorless"
+        id="cost-colorless"
+        value={colorless}
+        onChange={(e) => onColorlessChange(parseInt(e.target.value))}
+      >
+        {Array.from({ length: total === 0 ? 0 : total + 1 }, (_, index) => {
+          return (
+            <option key={index} value={index}>
+              {index}
+            </option>
+          );
+        })}
+      </select>
+    </div>
+  );
+}
+
 export default function Form({ initialData, onChange }) {
   /* text */
   const [state, dispatch] = useReducer(reducer, initialData);
@@ -178,55 +215,27 @@ export default function Form({ initialData, onChange }) {
       <div className="group">
         {text(["attacks", 0, "name"], false, "Attacks Name")}
         {text(["attacks", 0, "text"], true, "Attacks Text")}
-        <div className="field field__attacks-0-cost">
-          <label htmlFor="cost-all">Cost </label>
-          <select
-            name="cost-all"
-            id="cost-all"
-            value={cost.total}
-            onChange={(e) => {
-              dispatch({
-                type: "UPDATE_ATTACK_COST_ALL",
-                index: 0,
-                value: parseInt(e.target.value),
-              });
-            }}
-          >
-            {Array.from({ length: 5 }, (_, index) => {
-              return (
-                <option key={index} value={index}>
-                  {index}
-                </option>
-              );
-            })}
-          </select>
-          <label htmlFor="cost-colorless">inc. normal </label>
-          <select
-            name="cost-colorless"
-            id="cost-colorless"
-            value={cost.colorless}
-            onChange={(e) => {
-              dispatch({
-                type: "UPDATE_ATTACK_COST_COLORLESS",
-                index: 0,
-                value: parseInt(e.target.value),
-              });
-            }}
-          >
-            {Array.from(
-              { length: cost.total === 0 ? 0 : cost.total + 1 },
-              (_, index) => {
-                return (
-                  <option key={index} value={index}>
-                    {index}
-                  </option>
-                );
-              }
-            )}
-          </select>
-        </div>
+        <AttackCost
+          total={cost.total}
+          colorless={cost.colorless}
+          onTotalChange={(value) =>
+            dispatch({
+              type: "UPDATE_ATTACK_COST_ALL",
+              index: 0,
+              value,
+            })
+          }
+          onColorlessChange={(value) =>
+            dispatch({
+              type: "UPDATE_ATTACK_COST_COLORLESS",
+              index: 0,
+              value,
+            })
+          }
+        />
         {text(["attacks", 0, "damage"], false, "Attacks Damage")}
       </div>
+      <div className="group"></div>
       <div className="group">
         {text(["description"], true, "Description", 2)}
       </div>
